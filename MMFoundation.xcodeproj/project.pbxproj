@@ -10,6 +10,7 @@
 		35757C981FD5DB2A0022C2FB /* MMFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35757C8E1FD5DB2A0022C2FB /* MMFoundation.framework */; };
 		35757C9D1FD5DB2A0022C2FB /* MMFoundationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35757C9C1FD5DB2A0022C2FB /* MMFoundationTests.swift */; };
 		35757C9F1FD5DB2A0022C2FB /* MMFoundation.h in Headers */ = {isa = PBXBuildFile; fileRef = 35757C911FD5DB2A0022C2FB /* MMFoundation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		35757CA91FD5DBD50022C2FB /* KeyboardAppearObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35757CA81FD5DBD50022C2FB /* KeyboardAppearObserver.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +30,7 @@
 		35757C971FD5DB2A0022C2FB /* MMFoundationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MMFoundationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		35757C9C1FD5DB2A0022C2FB /* MMFoundationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MMFoundationTests.swift; sourceTree = "<group>"; };
 		35757C9E1FD5DB2A0022C2FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		35757CA81FD5DBD50022C2FB /* KeyboardAppearObserver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardAppearObserver.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +75,7 @@
 			children = (
 				35757C911FD5DB2A0022C2FB /* MMFoundation.h */,
 				35757C921FD5DB2A0022C2FB /* Info.plist */,
+				35757CA81FD5DBD50022C2FB /* KeyboardAppearObserver.swift */,
 			);
 			path = MMFoundation;
 			sourceTree = "<group>";
@@ -148,6 +151,7 @@
 				TargetAttributes = {
 					35757C8D1FD5DB2A0022C2FB = {
 						CreatedOnToolsVersion = 9.1;
+						LastSwiftMigration = 0910;
 						ProvisioningStyle = Automatic;
 					};
 					35757C961FD5DB2A0022C2FB = {
@@ -196,6 +200,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				35757CA91FD5DBD50022C2FB /* KeyboardAppearObserver.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -334,6 +339,7 @@
 		35757CA31FD5DB2A0022C2FB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -347,6 +353,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = michal.moskala.MMFoundation;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -355,6 +362,7 @@
 		35757CA41FD5DB2A0022C2FB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -376,6 +384,7 @@
 		35757CA61FD5DB2A0022C2FB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = R77HUFLYN8;
 				INFOPLIST_FILE = MMFoundationTests/Info.plist;
@@ -390,6 +399,7 @@
 		35757CA71FD5DB2A0022C2FB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = R77HUFLYN8;
 				INFOPLIST_FILE = MMFoundationTests/Info.plist;
