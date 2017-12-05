@@ -8,14 +8,14 @@
 
 import UIKit
 
-class KeyboardAppearObserver {
+public class KeyboardAppearObserver {
     
     private let notificationCenter: NotificationCenter
-    var keyboardWillAppearCallback: ((CGFloat) -> Void) = { _ in }
-    var keyboardWillChangeHeight: ((CGFloat) -> Void) = { _ in }
-    var keyboardWillHideCallback = {}
+    public var keyboardWillAppearCallback: ((CGFloat) -> Void) = { _ in }
+    public var keyboardWillChangeHeight: ((CGFloat) -> Void) = { _ in }
+    public var keyboardWillHideCallback = {}
     
-    init(notificationCenter: NotificationCenter = .default) {
+    public init(notificationCenter: NotificationCenter = .default) {
         self.notificationCenter = notificationCenter
         setupNotificationObservers()
     }
