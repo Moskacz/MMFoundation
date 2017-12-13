@@ -12,6 +12,7 @@
 		35757C9F1FD5DB2A0022C2FB /* MMFoundation.h in Headers */ = {isa = PBXBuildFile; fileRef = 35757C911FD5DB2A0022C2FB /* MMFoundation.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		35757CA91FD5DBD50022C2FB /* KeyboardAppearObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35757CA81FD5DBD50022C2FB /* KeyboardAppearObserver.swift */; };
 		35757CAB1FD5E02F0022C2FB /* KeyboardAppearObserverTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35757CAA1FD5E02F0022C2FB /* KeyboardAppearObserverTests.swift */; };
+		909B9B781FE1A2B800E840CA /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 909B9B771FE1A2B800E840CA /* UIView+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +34,7 @@
 		35757C9E1FD5DB2A0022C2FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		35757CA81FD5DBD50022C2FB /* KeyboardAppearObserver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardAppearObserver.swift; sourceTree = "<group>"; };
 		35757CAA1FD5E02F0022C2FB /* KeyboardAppearObserverTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardAppearObserverTests.swift; sourceTree = "<group>"; };
+		909B9B771FE1A2B800E840CA /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +80,7 @@
 				35757C911FD5DB2A0022C2FB /* MMFoundation.h */,
 				35757C921FD5DB2A0022C2FB /* Info.plist */,
 				35757CA81FD5DBD50022C2FB /* KeyboardAppearObserver.swift */,
+				909B9B771FE1A2B800E840CA /* UIView+Extension.swift */,
 			);
 			path = MMFoundation;
 			sourceTree = "<group>";
@@ -203,6 +206,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				909B9B781FE1A2B800E840CA /* UIView+Extension.swift in Sources */,
 				35757CA91FD5DBD50022C2FB /* KeyboardAppearObserver.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
