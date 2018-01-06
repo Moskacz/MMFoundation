@@ -20,3 +20,17 @@ class WeakArray<T:AnyObject> {
         items.append(WeakBox(value: item))
     }
 }
+
+extension WeakArray: Collection {
+    
+    var startIndex: Int { return items.startIndex }
+    var endIndex: Int { return items.endIndex }
+    
+    subscript(_ index: Int) -> T? {
+        return items[index].boxed
+    }
+    
+    func index(after i: Int) -> Int {
+        return items.index(after: i)
+    }
+}
