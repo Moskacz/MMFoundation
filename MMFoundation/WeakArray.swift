@@ -8,7 +8,7 @@
 
 import Foundation
 
-class WeakArray<T:AnyObject> {
+public class WeakArray<T:AnyObject> {
     
     private var items: [WeakBox<T>]
     
@@ -23,14 +23,14 @@ class WeakArray<T:AnyObject> {
 
 extension WeakArray: Collection {
     
-    var startIndex: Int { return items.startIndex }
-    var endIndex: Int { return items.endIndex }
+    public var startIndex: Int { return items.startIndex }
+    public var endIndex: Int { return items.endIndex }
     
-    subscript(_ index: Int) -> T? {
+    public subscript(_ index: Int) -> T? {
         return items[index].boxed
     }
     
-    func index(after i: Int) -> Int {
+    public func index(after i: Int) -> Int {
         return items.index(after: i)
     }
 }

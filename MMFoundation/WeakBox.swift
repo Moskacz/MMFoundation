@@ -8,7 +8,7 @@
 
 import Foundation
 
-final class WeakBox<T:AnyObject> {
+public final class WeakBox<T:AnyObject> {
     
     public weak var boxed: T?
     
