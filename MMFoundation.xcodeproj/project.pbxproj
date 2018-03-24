@@ -85,10 +85,10 @@
 		35757C901FD5DB2A0022C2FB /* MMFoundation */ = {
 			isa = PBXGroup;
 			children = (
+				35940B422066961900BB7753 /* UI */,
 				35757C911FD5DB2A0022C2FB /* MMFoundation.h */,
 				35757C921FD5DB2A0022C2FB /* Info.plist */,
 				35757CA81FD5DBD50022C2FB /* KeyboardAppearObserver.swift */,
-				909B9B771FE1A2B800E840CA /* UIView+Extension.swift */,
 				35FB7E1D20001762001929DF /* WeakBox.swift */,
 				35F14A962000EA6F005EDA59 /* WeakArray.swift */,
 			);
@@ -105,6 +105,22 @@
 				35F14A982000EBF4005EDA59 /* WeakArrayTests.swift */,
 			);
 			path = MMFoundationTests;
+			sourceTree = "<group>";
+		};
+		35940B422066961900BB7753 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				35940B432066962E00BB7753 /* Gradient */,
+				909B9B771FE1A2B800E840CA /* UIView+Extension.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		35940B432066962E00BB7753 /* Gradient */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Gradient;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
