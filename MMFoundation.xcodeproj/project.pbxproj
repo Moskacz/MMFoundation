@@ -12,6 +12,8 @@
 		35757C9F1FD5DB2A0022C2FB /* MMFoundation.h in Headers */ = {isa = PBXBuildFile; fileRef = 35757C911FD5DB2A0022C2FB /* MMFoundation.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		35757CA91FD5DBD50022C2FB /* KeyboardAppearObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35757CA81FD5DBD50022C2FB /* KeyboardAppearObserver.swift */; };
 		35757CAB1FD5E02F0022C2FB /* KeyboardAppearObserverTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35757CAA1FD5E02F0022C2FB /* KeyboardAppearObserverTests.swift */; };
+		35940B452066966700BB7753 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35940B442066966700BB7753 /* GradientView.swift */; };
+		35940B47206696BF00BB7753 /* GradientRepresenting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35940B46206696BF00BB7753 /* GradientRepresenting.swift */; };
 		35F14A972000EA6F005EDA59 /* WeakArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35F14A962000EA6F005EDA59 /* WeakArray.swift */; };
 		35F14A992000EBF4005EDA59 /* WeakArrayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35F14A982000EBF4005EDA59 /* WeakArrayTests.swift */; };
 		35FB7E1E20001762001929DF /* WeakBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35FB7E1D20001762001929DF /* WeakBox.swift */; };
@@ -38,6 +40,8 @@
 		35757C9E1FD5DB2A0022C2FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		35757CA81FD5DBD50022C2FB /* KeyboardAppearObserver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardAppearObserver.swift; sourceTree = "<group>"; };
 		35757CAA1FD5E02F0022C2FB /* KeyboardAppearObserverTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardAppearObserverTests.swift; sourceTree = "<group>"; };
+		35940B442066966700BB7753 /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
+		35940B46206696BF00BB7753 /* GradientRepresenting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientRepresenting.swift; sourceTree = "<group>"; };
 		35F14A962000EA6F005EDA59 /* WeakArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeakArray.swift; sourceTree = "<group>"; };
 		35F14A982000EBF4005EDA59 /* WeakArrayTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeakArrayTests.swift; sourceTree = "<group>"; };
 		35FB7E1D20001762001929DF /* WeakBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeakBox.swift; sourceTree = "<group>"; };
@@ -119,6 +123,8 @@
 		35940B432066962E00BB7753 /* Gradient */ = {
 			isa = PBXGroup;
 			children = (
+				35940B442066966700BB7753 /* GradientView.swift */,
+				35940B46206696BF00BB7753 /* GradientRepresenting.swift */,
 			);
 			path = Gradient;
 			sourceTree = "<group>";
@@ -236,8 +242,10 @@
 			files = (
 				909B9B781FE1A2B800E840CA /* UIView+Extension.swift in Sources */,
 				35F14A972000EA6F005EDA59 /* WeakArray.swift in Sources */,
+				35940B452066966700BB7753 /* GradientView.swift in Sources */,
 				35757CA91FD5DBD50022C2FB /* KeyboardAppearObserver.swift in Sources */,
 				35FB7E1E20001762001929DF /* WeakBox.swift in Sources */,
+				35940B47206696BF00BB7753 /* GradientRepresenting.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
