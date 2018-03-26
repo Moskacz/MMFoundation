@@ -20,9 +20,7 @@ public class GradientView: UIView {
     
     public var gradient: GradientRepresenting? {
         didSet {
-            gradientLayer.colors = gradient?.colors.map { $0.cgColor }
-            gradientLayer.startPoint = gradient?.startPoint ?? CGPoint.zero
-            gradientLayer.endPoint = gradient?.endPoint ?? CGPoint.zero
+            gradientLayer.update(with: gradient)
             setNeedsDisplay()
         }
     }

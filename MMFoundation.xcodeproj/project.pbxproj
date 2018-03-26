@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		352708F8206971D9004DAF8D /* CAGradienLayer+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 352708F7206971D9004DAF8D /* CAGradienLayer+Extension.swift */; };
 		35757C981FD5DB2A0022C2FB /* MMFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35757C8E1FD5DB2A0022C2FB /* MMFoundation.framework */; };
 		35757C9D1FD5DB2A0022C2FB /* MMFoundationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35757C9C1FD5DB2A0022C2FB /* MMFoundationTests.swift */; };
 		35757C9F1FD5DB2A0022C2FB /* MMFoundation.h in Headers */ = {isa = PBXBuildFile; fileRef = 35757C911FD5DB2A0022C2FB /* MMFoundation.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -33,6 +34,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		352708F7206971D9004DAF8D /* CAGradienLayer+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CAGradienLayer+Extension.swift"; sourceTree = "<group>"; };
 		35757C8E1FD5DB2A0022C2FB /* MMFoundation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MMFoundation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		35757C911FD5DB2A0022C2FB /* MMFoundation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MMFoundation.h; sourceTree = "<group>"; };
 		35757C921FD5DB2A0022C2FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -128,6 +130,7 @@
 			children = (
 				35940B442066966700BB7753 /* GradientView.swift */,
 				35940B46206696BF00BB7753 /* GradientRepresenting.swift */,
+				352708F7206971D9004DAF8D /* CAGradienLayer+Extension.swift */,
 			);
 			path = Gradient;
 			sourceTree = "<group>";
@@ -255,6 +258,7 @@
 				35F14A972000EA6F005EDA59 /* WeakArray.swift in Sources */,
 				35940B452066966700BB7753 /* GradientView.swift in Sources */,
 				35757CA91FD5DBD50022C2FB /* KeyboardAppearObserver.swift in Sources */,
+				352708F8206971D9004DAF8D /* CAGradienLayer+Extension.swift in Sources */,
 				35940B4A20669D2E00BB7753 /* CGPoint+Extension.swift in Sources */,
 				35FB7E1E20001762001929DF /* WeakBox.swift in Sources */,
 				35940B47206696BF00BB7753 /* GradientRepresenting.swift in Sources */,
