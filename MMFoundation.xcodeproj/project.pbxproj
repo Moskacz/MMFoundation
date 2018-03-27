@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		352708F8206971D9004DAF8D /* CAGradienLayer+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 352708F7206971D9004DAF8D /* CAGradienLayer+Extension.swift */; };
+		352D29A5206AD56900B91E07 /* GradientsTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 352D29A4206AD56900B91E07 /* GradientsTest.swift */; };
 		35757C981FD5DB2A0022C2FB /* MMFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35757C8E1FD5DB2A0022C2FB /* MMFoundation.framework */; };
 		35757C9D1FD5DB2A0022C2FB /* MMFoundationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35757C9C1FD5DB2A0022C2FB /* MMFoundationTests.swift */; };
 		35757C9F1FD5DB2A0022C2FB /* MMFoundation.h in Headers */ = {isa = PBXBuildFile; fileRef = 35757C911FD5DB2A0022C2FB /* MMFoundation.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -35,6 +36,7 @@
 
 /* Begin PBXFileReference section */
 		352708F7206971D9004DAF8D /* CAGradienLayer+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CAGradienLayer+Extension.swift"; sourceTree = "<group>"; };
+		352D29A4206AD56900B91E07 /* GradientsTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientsTest.swift; sourceTree = "<group>"; };
 		35757C8E1FD5DB2A0022C2FB /* MMFoundation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MMFoundation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		35757C911FD5DB2A0022C2FB /* MMFoundation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MMFoundation.h; sourceTree = "<group>"; };
 		35757C921FD5DB2A0022C2FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -111,6 +113,7 @@
 				35757CAA1FD5E02F0022C2FB /* KeyboardAppearObserverTests.swift */,
 				35FB7E21200017CB001929DF /* WeakBoxTests.swift */,
 				35F14A982000EBF4005EDA59 /* WeakArrayTests.swift */,
+				352D29A4206AD56900B91E07 /* GradientsTest.swift */,
 			);
 			path = MMFoundationTests;
 			sourceTree = "<group>";
@@ -271,6 +274,7 @@
 			files = (
 				35FB7E22200017CB001929DF /* WeakBoxTests.swift in Sources */,
 				35F14A992000EBF4005EDA59 /* WeakArrayTests.swift in Sources */,
+				352D29A5206AD56900B91E07 /* GradientsTest.swift in Sources */,
 				35757C9D1FD5DB2A0022C2FB /* MMFoundationTests.swift in Sources */,
 				35757CAB1FD5E02F0022C2FB /* KeyboardAppearObserverTests.swift in Sources */,
 			);

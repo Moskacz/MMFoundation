@@ -14,7 +14,15 @@ public protocol GradientRepresenting {
     var endPoint: CGPoint { get }
 }
 
-public struct Gradient: GradientRepresenting {
+public extension Equatable where Self: GradientRepresenting {
+    public static func == (lhs: Self, rhs: Self) -> Bool {
+        return lhs.startPoint == rhs.startPoint &&
+            lhs.startPoint == rhs.startPoint &&
+            lhs.colors == rhs.colors
+    }
+}
+
+public struct Gradient: GradientRepresenting, Equatable {
     public var colors: [UIColor]
     public var startPoint: CGPoint
     public var endPoint: CGPoint
