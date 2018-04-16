@@ -10,18 +10,6 @@ import UIKit
 
 public extension UISegmentedControl {
     
-    public enum Item {
-        case text(String)
-        case image(UIImage)
-        
-        public var value: Any {
-            switch self {
-            case .text(let val): return val
-            case .image(let val): return val
-            }
-        }
-    }
-    
     public convenience init(items: [Item]) {
         self.init(items: items.map { $0.value })
     }
@@ -55,6 +43,18 @@ public extension UISegmentedControl {
             return Item.image(image)
         } else {
             return nil
+        }
+    }
+    
+    public enum Item: Equatable {
+        case text(String)
+        case image(UIImage)
+        
+        public var value: Any {
+            switch self {
+            case .text(let val): return val
+            case .image(let val): return val
+            }
         }
     }
 }
