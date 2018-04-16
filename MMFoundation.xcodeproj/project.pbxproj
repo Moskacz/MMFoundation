@@ -10,6 +10,7 @@
 		350D55B920715F8900BB2F3B /* GradientButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 350D55B820715F8900BB2F3B /* GradientButton.swift */; };
 		352708F8206971D9004DAF8D /* CAGradienLayer+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 352708F7206971D9004DAF8D /* CAGradienLayer+Extension.swift */; };
 		352D29A5206AD56900B91E07 /* GradientsTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 352D29A4206AD56900B91E07 /* GradientsTest.swift */; };
+		354E149C20852DEA00380B2E /* UISegmentedControl+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 354E149B20852DEA00380B2E /* UISegmentedControl+Extensions.swift */; };
 		35757C981FD5DB2A0022C2FB /* MMFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35757C8E1FD5DB2A0022C2FB /* MMFoundation.framework */; };
 		35757C9D1FD5DB2A0022C2FB /* MMFoundationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35757C9C1FD5DB2A0022C2FB /* MMFoundationTests.swift */; };
 		35757C9F1FD5DB2A0022C2FB /* MMFoundation.h in Headers */ = {isa = PBXBuildFile; fileRef = 35757C911FD5DB2A0022C2FB /* MMFoundation.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -39,6 +40,7 @@
 		350D55B820715F8900BB2F3B /* GradientButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientButton.swift; sourceTree = "<group>"; };
 		352708F7206971D9004DAF8D /* CAGradienLayer+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CAGradienLayer+Extension.swift"; sourceTree = "<group>"; };
 		352D29A4206AD56900B91E07 /* GradientsTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientsTest.swift; sourceTree = "<group>"; };
+		354E149B20852DEA00380B2E /* UISegmentedControl+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UISegmentedControl+Extensions.swift"; sourceTree = "<group>"; };
 		35757C8E1FD5DB2A0022C2FB /* MMFoundation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MMFoundation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		35757C911FD5DB2A0022C2FB /* MMFoundation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MMFoundation.h; sourceTree = "<group>"; };
 		35757C921FD5DB2A0022C2FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -126,6 +128,7 @@
 				35940B4820669D1F00BB7753 /* Geometry */,
 				35940B432066962E00BB7753 /* Gradient */,
 				909B9B771FE1A2B800E840CA /* UIView+Extension.swift */,
+				354E149B20852DEA00380B2E /* UISegmentedControl+Extensions.swift */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -262,6 +265,7 @@
 			files = (
 				909B9B781FE1A2B800E840CA /* UIView+Extension.swift in Sources */,
 				35F14A972000EA6F005EDA59 /* WeakArray.swift in Sources */,
+				354E149C20852DEA00380B2E /* UISegmentedControl+Extensions.swift in Sources */,
 				35940B452066966700BB7753 /* GradientView.swift in Sources */,
 				35757CA91FD5DBD50022C2FB /* KeyboardAppearObserver.swift in Sources */,
 				350D55B920715F8900BB2F3B /* GradientButton.swift in Sources */,
