@@ -18,10 +18,8 @@ public class GradientButton: UIButton {
         return layer as! CAGradientLayer
     }
     
-    public var gradient: GradientRepresenting? {
-        didSet {
-            gradientLayer.update(with: gradient)
-            setNeedsDisplay()
-        }
+    public func update<T: GradientRepresenting>(with gradient: T) {
+        update(with: gradient)
+        setNeedsDisplay()
     }
 }

@@ -8,18 +8,10 @@
 
 import Foundation
 
-public protocol GradientRepresenting {
+public protocol GradientRepresenting: Equatable {
     var colors: [UIColor] { get }
     var startPoint: CGPoint { get }
     var endPoint: CGPoint { get }
-}
-
-public extension Equatable where Self: GradientRepresenting {
-    public static func == (lhs: Self, rhs: Self) -> Bool {
-        return lhs.startPoint == rhs.startPoint &&
-            lhs.startPoint == rhs.startPoint &&
-            lhs.colors == rhs.colors
-    }
 }
 
 public struct Gradient: GradientRepresenting, Equatable {

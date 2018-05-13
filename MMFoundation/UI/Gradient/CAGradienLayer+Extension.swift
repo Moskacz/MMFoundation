@@ -10,7 +10,7 @@ import Foundation
 
 extension CAGradientLayer {
     
-    public func update(with gradient: GradientRepresenting?) {
+    public func update<T: GradientRepresenting>(with gradient: T?) {
         colors = gradient?.colors.map { $0.cgColor }
         startPoint = gradient?.startPoint ?? CGPoint.zero
         endPoint = gradient?.endPoint ?? CGPoint.zero

@@ -18,10 +18,8 @@ public class GradientView: UIView {
         return layer as! CAGradientLayer
     }
     
-    public var gradient: GradientRepresenting? {
-        didSet {
-            gradientLayer.update(with: gradient)
-            setNeedsDisplay()
-        }
+    public func update<T: GradientRepresenting>(with gradient: T) {
+        gradientLayer.update(with: gradient)
+        setNeedsDisplay()
     }
 }
