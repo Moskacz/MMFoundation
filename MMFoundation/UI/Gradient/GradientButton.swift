@@ -8,18 +8,9 @@
 
 import UIKit
 
-public class GradientButton: UIButton {
+public class GradientButton: UIButton, GradientLayerBasing {
     
     override public class var layerClass: AnyClass {
         return CAGradientLayer.self
-    }
-    
-    public var gradientLayer: CAGradientLayer {
-        return layer as! CAGradientLayer
-    }
-    
-    public func update<T: GradientRepresenting>(with gradient: T) {
-        update(with: gradient)
-        setNeedsDisplay()
     }
 }

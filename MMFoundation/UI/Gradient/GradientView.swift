@@ -8,18 +8,9 @@
 
 import UIKit
 
-public class GradientView: UIView {
+public class GradientView: UIView, GradientLayerBasing {
     
     override public class var layerClass: AnyClass {
         return CAGradientLayer.self
-    }
-    
-    public var gradientLayer: CAGradientLayer {
-        return layer as! CAGradientLayer
-    }
-    
-    public func update<T: GradientRepresenting>(with gradient: T) {
-        gradientLayer.update(with: gradient)
-        setNeedsDisplay()
     }
 }
