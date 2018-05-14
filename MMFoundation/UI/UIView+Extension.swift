@@ -53,3 +53,13 @@ public extension UIView {
         constraint.isActive = true
     }
 }
+
+public extension UIView {
+    
+    public func makeLayerRound() {
+        let cornerRadius = bounds.width * 0.5
+        if fabs(layer.cornerRadius - cornerRadius) > 0.01 {
+            layer.cornerRadius = cornerRadius
+        }
+    }
+}
