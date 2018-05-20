@@ -6,7 +6,7 @@
 //  Copyright © 2017 Michal Moskala. All rights reserved.
 //
 
-import Foundation
+import UIKit
 
 public extension UIView {
     
@@ -61,5 +61,12 @@ public extension UIView {
         if fabs(layer.cornerRadius - cornerRadius) > 0.01 {
             layer.cornerRadius = cornerRadius
         }
+    }
+    
+    public func insertBlurEffectView() {
+        let blurEffect = UIBlurEffect(style: .light)
+        let blurView = UIVisualEffectView(effect: blurEffect)
+        insertSubview(blurView, at: 0)
+        blurView.matchParent()
     }
 }
