@@ -19,13 +19,15 @@ public class ResultsController<T>: NSObject {
 public protocol ResultsControllerDelegate: class {
     func resultsControllerWillChangeContent()
     func resultsControllerDidChangeContent()
-    func resultsControllerDid(change: ResultChangeType, section: Int)
-    func resultsControllerDid(change: ResultChangeType, itemAtPath oldPath: IndexPath?, to newPath: IndexPath?)
+    func resultsControllerDid(change: ResultChangeType)
 }
 
 public enum ResultChangeType {
-    case insert
-    case delete
-    case update
-    case move
+    case insertRow(path: IndexPath)
+    case deleteRow(path: IndexPath)
+    case updateRow(path: IndexPath)
+    case moveRow(fromPath: IndexPath, toPath: IndexPath)
+    
+    case insertSection(index: Int)
+    case deleteSection(index: Int)
 }

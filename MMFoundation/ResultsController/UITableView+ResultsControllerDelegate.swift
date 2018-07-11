@@ -18,28 +18,20 @@ extension UITableView: ResultsControllerDelegate {
         endUpdates()
     }
     
-    public func resultsControllerDid(change: ResultChangeType, section: Int) {
+    public func resultsControllerDid(change: ResultChangeType) {
         switch change {
-        case .insert:
-            insertSections(IndexSet(integer: section), with: .automatic)
-        case .delete:
-            deleteSections(IndexSet(integer: section), with: .automatic)
-        case .update, .move:
-            break
-        }
-    }
-    
-    public func resultsControllerDid(change: ResultChangeType, itemAtPath oldPath: IndexPath?, to newPath: IndexPath?) {
-        switch change {
-        case .insert:
-            insertRows(at: [newPath!], with: .automatic)
-        case .delete:
-            deleteRows(at: [oldPath!], with: .automatic)
-        case .move:
-            deleteRows(at: [oldPath!], with: .automatic)
-            insertRows(at: [newPath!], with: .automatic)
-        case .update:
-            reloadRows(at: [oldPath!], with: .automatic)
+        case .insertRow(let path):
+            insertRows(at: [path], with: .automatic)
+        case .deleteRow(let path):
+            deleteRows(at: [path], with: .automatic)
+        case .updateRow(let path):
+            reloadRows(at: [path], with: .automatic)
+        case .moveRow(let fromPath, let toPath):
+            moveRow(at: fromPath, to: toPath)
+        case .insertSection(let index):
+            insertSections(IndexSet(integer: index), with: .automatic)
+        case .deleteSection(let index):
+            deleteSections(IndexSet(integer: index), with: .automatic)
         }
     }
 }

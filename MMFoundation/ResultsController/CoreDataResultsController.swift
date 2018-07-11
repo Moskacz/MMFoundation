@@ -36,28 +36,31 @@ public class CoreDataResultsController<T: NSFetchRequestResult>: ResultsControll
                            at indexPath: IndexPath?,
                            for type: NSFetchedResultsChangeType,
                            newIndexPath: IndexPath?) {
-        delegate?.resultsControllerDid(change: type.changeType, itemAtPath: indexPath, to: newIndexPath)
+        let change: ResultChangeType
+        switch type {
+        case .insert: change = .insertRow(path: newIndexPath!)
+        case .delete: change = .deleteRow(path: indexPath!)
+        case .update: change = .updateRow(path: indexPath!)
+        case .move: change = .moveRow(fromPath: indexPath!, toPath: newIndexPath!)
+        }
+        delegate?.resultsControllerDid(change: change)
     }
     
     public func controller(_ controller: NSFetchedResultsController<NSFetchRequestResult>,
                            didChange sectionInfo: NSFetchedResultsSectionInfo,
                            atSectionIndex sectionIndex: Int,
                            for type: NSFetchedResultsChangeType) {
-        delegate?.resultsControllerDid(change: type.changeType, section: sectionIndex)
+        switch type {
+        case .insert:
+            delegate?.resultsControllerDid(change: .insertSection(index: sectionIndex))
+        case .delete:
+            delegate?.resultsControllerDid(change: .deleteSection(index: sectionIndex))
+        case .move, .update:
+            break
+        }
     }
     
     public func controllerDidChangeContent(_ controller: NSFetchedResultsController<NSFetchRequestResult>) {
         delegate?.resultsControllerDidChangeContent()
-    }
-}
-
-extension NSFetchedResultsChangeType {
-    var changeType: ResultChangeType {
-        switch self {
-        case .delete: return .delete
-        case .insert: return .insert
-        case .move: return .move
-        case .update: return .update
-        }
     }
 }
