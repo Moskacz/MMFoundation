@@ -12,5 +12,5 @@ public class ResultsController<T> {
     func loadData() throws { fatalError("abstract method")}
     func object(at indexPath: IndexPath) -> T { fatalError("abstract method") }
     var sectionsCount: Int { fatalError("abstract method") }
-    func objects(in section: Int) -> [T] { fatalError("abstract method")}
+    func objects(in section: Int) -> [T]? { fatalError("abstract method")}
 }
