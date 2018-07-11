@@ -22,8 +22,7 @@ public class CoreDataResultsController<T: NSFetchRequestResult>: ResultsControll
     }
     
     override func objects(in section: Int) -> [T]? {
-        guard let objects = frc.sections?[section].objects else { return nil }
-        return objects as? [T]
+        return frc.sections?[section].objects as? [T]
     }
     
     // MARK: NSFetchedResultsControllerDelegate

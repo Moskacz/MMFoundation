@@ -22,6 +22,7 @@
 		35940B4A20669D2E00BB7753 /* CGPoint+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35940B4920669D2E00BB7753 /* CGPoint+Extension.swift */; };
 		359D332320F67CA200981FA3 /* ResultsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 359D332220F67CA200981FA3 /* ResultsController.swift */; };
 		359D332720F67EFB00981FA3 /* CoreDataResultsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 359D332620F67EFB00981FA3 /* CoreDataResultsController.swift */; };
+		359D332920F686E600981FA3 /* UITableView+ResultsControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 359D332820F686E600981FA3 /* UITableView+ResultsControllerDelegate.swift */; };
 		359F704020A8A3C800C9A694 /* GradientLayerBasing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 359F703F20A8A3C800C9A694 /* GradientLayerBasing.swift */; };
 		35F14A972000EA6F005EDA59 /* WeakArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35F14A962000EA6F005EDA59 /* WeakArray.swift */; };
 		35F14A992000EBF4005EDA59 /* WeakArrayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35F14A982000EBF4005EDA59 /* WeakArrayTests.swift */; };
@@ -59,6 +60,7 @@
 		35940B4920669D2E00BB7753 /* CGPoint+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CGPoint+Extension.swift"; sourceTree = "<group>"; };
 		359D332220F67CA200981FA3 /* ResultsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsController.swift; sourceTree = "<group>"; };
 		359D332620F67EFB00981FA3 /* CoreDataResultsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataResultsController.swift; sourceTree = "<group>"; };
+		359D332820F686E600981FA3 /* UITableView+ResultsControllerDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView+ResultsControllerDelegate.swift"; sourceTree = "<group>"; };
 		359F703F20A8A3C800C9A694 /* GradientLayerBasing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientLayerBasing.swift; sourceTree = "<group>"; };
 		35F14A962000EA6F005EDA59 /* WeakArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeakArray.swift; sourceTree = "<group>"; };
 		35F14A982000EBF4005EDA59 /* WeakArrayTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeakArrayTests.swift; sourceTree = "<group>"; };
@@ -168,6 +170,7 @@
 			children = (
 				359D332220F67CA200981FA3 /* ResultsController.swift */,
 				359D332620F67EFB00981FA3 /* CoreDataResultsController.swift */,
+				359D332820F686E600981FA3 /* UITableView+ResultsControllerDelegate.swift */,
 			);
 			path = ResultsController;
 			sourceTree = "<group>";
@@ -286,6 +289,7 @@
 				909B9B781FE1A2B800E840CA /* UIView+Extension.swift in Sources */,
 				35F14A972000EA6F005EDA59 /* WeakArray.swift in Sources */,
 				35940B452066966700BB7753 /* GradientView.swift in Sources */,
+				359D332920F686E600981FA3 /* UITableView+ResultsControllerDelegate.swift in Sources */,
 				35757CA91FD5DBD50022C2FB /* KeyboardAppearObserver.swift in Sources */,
 				359F704020A8A3C800C9A694 /* GradientLayerBasing.swift in Sources */,
 				350D55B920715F8900BB2F3B /* GradientButton.swift in Sources */,
