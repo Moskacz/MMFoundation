@@ -8,7 +8,7 @@
 
 import Foundation
 
-public class ResultsController<T> {
+public class ResultsController<T>: NSObject {
     weak var delegate: ResultsControllerDelegate?
     func loadData() throws { fatalError("abstract method")}
     func object(at indexPath: IndexPath) -> T { fatalError("abstract method") }
