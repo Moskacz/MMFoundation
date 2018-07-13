@@ -8,11 +8,27 @@
 
 /* Begin PBXBuildFile section */
 		35F311A020F9337D0062AD82 /* MMFoundation_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35F3119720F9337D0062AD82 /* MMFoundation_iOS.framework */; };
-		35F311A520F9337D0062AD82 /* MMFoundation_iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35F311A420F9337D0062AD82 /* MMFoundation_iOSTests.swift */; };
-		35F311A720F9337D0062AD82 /* MMFoundation_iOS.h in Headers */ = {isa = PBXBuildFile; fileRef = 35F3119920F9337D0062AD82 /* MMFoundation_iOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		35F311BC20F933A90062AD82 /* MMFoundation_macOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35F311B320F933A90062AD82 /* MMFoundation_macOS.framework */; };
-		35F311C120F933A90062AD82 /* MMFoundation_macOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35F311C020F933A90062AD82 /* MMFoundation_macOSTests.swift */; };
-		35F311C320F933A90062AD82 /* MMFoundation_macOS.h in Headers */ = {isa = PBXBuildFile; fileRef = 35F311B520F933A90062AD82 /* MMFoundation_macOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		35F311D020F938B90062AD82 /* MMFoundation.h in Headers */ = {isa = PBXBuildFile; fileRef = 35F311CF20F938B90062AD82 /* MMFoundation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		35F311D120F938B90062AD82 /* MMFoundation.h in Headers */ = {isa = PBXBuildFile; fileRef = 35F311CF20F938B90062AD82 /* MMFoundation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		35F311D220F93A860062AD82 /* ResultsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 359D332220F67CA200981FA3 /* ResultsController.swift */; };
+		35F311D320F93A860062AD82 /* ResultsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 359D332220F67CA200981FA3 /* ResultsController.swift */; };
+		35F311D420F93A890062AD82 /* CoreDataResultsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 359D332620F67EFB00981FA3 /* CoreDataResultsController.swift */; };
+		35F311D520F93A8A0062AD82 /* CoreDataResultsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 359D332620F67EFB00981FA3 /* CoreDataResultsController.swift */; };
+		35F311D720F93A990062AD82 /* UITableView+ResultsControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 359D332820F686E600981FA3 /* UITableView+ResultsControllerDelegate.swift */; };
+		35F311D820F93AB00062AD82 /* KeyboardAppearObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35757CA81FD5DBD50022C2FB /* KeyboardAppearObserver.swift */; };
+		35F311DA20F93ACE0062AD82 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 909B9B771FE1A2B800E840CA /* UIView+Extension.swift */; };
+		35F311DB20F93AD90062AD82 /* RoundLayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 350C03A120AB74DC006ADECF /* RoundLayerView.swift */; };
+		35F311DC20F93AE20062AD82 /* CGPoint+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35940B4920669D2E00BB7753 /* CGPoint+Extension.swift */; };
+		35F311DD20F93AE20062AD82 /* CGPoint+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35940B4920669D2E00BB7753 /* CGPoint+Extension.swift */; };
+		35F311DE20F93B4F0062AD82 /* CAGradienLayer+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 352708F7206971D9004DAF8D /* CAGradienLayer+Extension.swift */; };
+		35F311E320F93CD30062AD82 /* GradientRepresenting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35940B46206696BF00BB7753 /* GradientRepresenting.swift */; };
+		35F311E620F93CEE0062AD82 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35940B442066966700BB7753 /* GradientView.swift */; };
+		35F311E720F93CF00062AD82 /* GradientButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 350D55B820715F8900BB2F3B /* GradientButton.swift */; };
+		35F311E820F93CF30062AD82 /* GradientLayerBasing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 359F703F20A8A3C800C9A694 /* GradientLayerBasing.swift */; };
+		35F311EA20F93D600062AD82 /* KeyboardAppearObserverTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35757CAA1FD5E02F0022C2FB /* KeyboardAppearObserverTests.swift */; };
+		35F311EB20F93D6D0062AD82 /* UIViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3587F47720A8C2D50072AF49 /* UIViewTests.swift */; };
+		35F311EC20F93D7D0062AD82 /* GradientsTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 352D29A4206AD56900B91E07 /* GradientsTest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,10 +53,6 @@
 		350D55B820715F8900BB2F3B /* GradientButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientButton.swift; sourceTree = "<group>"; };
 		352708F7206971D9004DAF8D /* CAGradienLayer+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CAGradienLayer+Extension.swift"; sourceTree = "<group>"; };
 		352D29A4206AD56900B91E07 /* GradientsTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientsTest.swift; sourceTree = "<group>"; };
-		35757C911FD5DB2A0022C2FB /* MMFoundation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MMFoundation.h; sourceTree = "<group>"; };
-		35757C921FD5DB2A0022C2FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		35757C9C1FD5DB2A0022C2FB /* MMFoundationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MMFoundationTests.swift; sourceTree = "<group>"; };
-		35757C9E1FD5DB2A0022C2FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		35757CA81FD5DBD50022C2FB /* KeyboardAppearObserver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardAppearObserver.swift; sourceTree = "<group>"; };
 		35757CAA1FD5E02F0022C2FB /* KeyboardAppearObserverTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardAppearObserverTests.swift; sourceTree = "<group>"; };
 		3587F47720A8C2D50072AF49 /* UIViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewTests.swift; sourceTree = "<group>"; };
@@ -51,26 +63,15 @@
 		359D332620F67EFB00981FA3 /* CoreDataResultsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataResultsController.swift; sourceTree = "<group>"; };
 		359D332820F686E600981FA3 /* UITableView+ResultsControllerDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView+ResultsControllerDelegate.swift"; sourceTree = "<group>"; };
 		359F703F20A8A3C800C9A694 /* GradientLayerBasing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientLayerBasing.swift; sourceTree = "<group>"; };
-		35F14A962000EA6F005EDA59 /* WeakArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeakArray.swift; sourceTree = "<group>"; };
-		35F14A982000EBF4005EDA59 /* WeakArrayTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeakArrayTests.swift; sourceTree = "<group>"; };
-		35F3117A20F931120062AD82 /* MMFoundation_macOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MMFoundation_macOS.h; sourceTree = "<group>"; };
-		35F3117B20F931120062AD82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		35F3118520F931120062AD82 /* MMFoundation_macOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MMFoundation_macOSTests.swift; sourceTree = "<group>"; };
-		35F3118720F931120062AD82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		35F3119720F9337D0062AD82 /* MMFoundation_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MMFoundation_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		35F3119920F9337D0062AD82 /* MMFoundation_iOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MMFoundation_iOS.h; sourceTree = "<group>"; };
-		35F3119A20F9337D0062AD82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		35F3119A20F9337D0062AD82 /* Info-iOS.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Info-iOS.plist"; sourceTree = "<group>"; };
 		35F3119F20F9337D0062AD82 /* MMFoundation-iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MMFoundation-iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		35F311A420F9337D0062AD82 /* MMFoundation_iOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MMFoundation_iOSTests.swift; sourceTree = "<group>"; };
-		35F311A620F9337D0062AD82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		35F311A620F9337D0062AD82 /* Info-iOS-unittests.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Info-iOS-unittests.plist"; sourceTree = "<group>"; };
 		35F311B320F933A90062AD82 /* MMFoundation_macOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MMFoundation_macOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		35F311B520F933A90062AD82 /* MMFoundation_macOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MMFoundation_macOS.h; sourceTree = "<group>"; };
-		35F311B620F933A90062AD82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		35F311B620F933A90062AD82 /* Info-macOS.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Info-macOS.plist"; sourceTree = "<group>"; };
 		35F311BB20F933A90062AD82 /* MMFoundation-macOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MMFoundation-macOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		35F311C020F933A90062AD82 /* MMFoundation_macOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MMFoundation_macOSTests.swift; sourceTree = "<group>"; };
-		35F311C220F933A90062AD82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		35FB7E1D20001762001929DF /* WeakBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeakBox.swift; sourceTree = "<group>"; };
-		35FB7E21200017CB001929DF /* WeakBoxTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeakBoxTests.swift; sourceTree = "<group>"; };
+		35F311C220F933A90062AD82 /* Info-macOS-unittests.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Info-macOS-unittests.plist"; sourceTree = "<group>"; };
+		35F311CF20F938B90062AD82 /* MMFoundation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MMFoundation.h; sourceTree = "<group>"; };
 		909B9B771FE1A2B800E840CA /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -111,14 +112,8 @@
 		35757C841FD5DB2A0022C2FB = {
 			isa = PBXGroup;
 			children = (
-				35757C901FD5DB2A0022C2FB /* MMFoundation */,
-				35757C9B1FD5DB2A0022C2FB /* MMFoundationTests */,
-				35F3117920F931120062AD82 /* MMFoundation_macOS */,
-				35F3118420F931120062AD82 /* MMFoundation_macOSTests */,
-				35F3119820F9337D0062AD82 /* MMFoundation-iOS */,
-				35F311A320F9337D0062AD82 /* MMFoundation-iOSTests */,
-				35F311B420F933A90062AD82 /* MMFoundation-macOS */,
-				35F311BF20F933A90062AD82 /* MMFoundation-macOSTests */,
+				35F311CA20F9366A0062AD82 /* Sources */,
+				35F311E920F93D310062AD82 /* UnitTests */,
 				35757C8F1FD5DB2A0022C2FB /* Products */,
 			);
 			sourceTree = "<group>";
@@ -134,58 +129,61 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		35757C901FD5DB2A0022C2FB /* MMFoundation */ = {
-			isa = PBXGroup;
-			children = (
-				359D332120F67C8600981FA3 /* ResultsController */,
-				35940B422066961900BB7753 /* UI */,
-				35757C911FD5DB2A0022C2FB /* MMFoundation.h */,
-				35757C921FD5DB2A0022C2FB /* Info.plist */,
-				35757CA81FD5DBD50022C2FB /* KeyboardAppearObserver.swift */,
-				35FB7E1D20001762001929DF /* WeakBox.swift */,
-				35F14A962000EA6F005EDA59 /* WeakArray.swift */,
-			);
-			path = MMFoundation;
-			sourceTree = "<group>";
-		};
-		35757C9B1FD5DB2A0022C2FB /* MMFoundationTests */ = {
-			isa = PBXGroup;
-			children = (
-				35757C9C1FD5DB2A0022C2FB /* MMFoundationTests.swift */,
-				35757C9E1FD5DB2A0022C2FB /* Info.plist */,
-				35757CAA1FD5E02F0022C2FB /* KeyboardAppearObserverTests.swift */,
-				35FB7E21200017CB001929DF /* WeakBoxTests.swift */,
-				35F14A982000EBF4005EDA59 /* WeakArrayTests.swift */,
-				352D29A4206AD56900B91E07 /* GradientsTest.swift */,
-				3587F47720A8C2D50072AF49 /* UIViewTests.swift */,
-			);
-			path = MMFoundationTests;
-			sourceTree = "<group>";
-		};
-		35940B422066961900BB7753 /* UI */ = {
-			isa = PBXGroup;
-			children = (
-				35940B4820669D1F00BB7753 /* Geometry */,
-				35940B432066962E00BB7753 /* Gradient */,
-				909B9B771FE1A2B800E840CA /* UIView+Extension.swift */,
-				350C03A120AB74DC006ADECF /* RoundLayerView.swift */,
-			);
-			path = UI;
-			sourceTree = "<group>";
-		};
 		35940B432066962E00BB7753 /* Gradient */ = {
 			isa = PBXGroup;
 			children = (
-				35940B442066966700BB7753 /* GradientView.swift */,
+				35F311E520F93CDB0062AD82 /* iOS */,
 				35940B46206696BF00BB7753 /* GradientRepresenting.swift */,
 				352708F7206971D9004DAF8D /* CAGradienLayer+Extension.swift */,
-				350D55B820715F8900BB2F3B /* GradientButton.swift */,
-				359F703F20A8A3C800C9A694 /* GradientLayerBasing.swift */,
 			);
 			path = Gradient;
 			sourceTree = "<group>";
 		};
-		35940B4820669D1F00BB7753 /* Geometry */ = {
+		359D332120F67C8600981FA3 /* ResultsController */ = {
+			isa = PBXGroup;
+			children = (
+				35F311E220F93CA80062AD82 /* iOS */,
+				359D332220F67CA200981FA3 /* ResultsController.swift */,
+				359D332620F67EFB00981FA3 /* CoreDataResultsController.swift */,
+			);
+			path = ResultsController;
+			sourceTree = "<group>";
+		};
+		35F311CA20F9366A0062AD82 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				359D332120F67C8600981FA3 /* ResultsController */,
+				35F311E020F93BBC0062AD82 /* UI */,
+				35F311CB20F9368A0062AD82 /* Configuration */,
+				35F311CF20F938B90062AD82 /* MMFoundation.h */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		35F311CB20F9368A0062AD82 /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				35F3119A20F9337D0062AD82 /* Info-iOS.plist */,
+				35F311A620F9337D0062AD82 /* Info-iOS-unittests.plist */,
+				35F311B620F933A90062AD82 /* Info-macOS.plist */,
+				35F311C220F933A90062AD82 /* Info-macOS-unittests.plist */,
+			);
+			path = Configuration;
+			sourceTree = "<group>";
+		};
+		35F311E020F93BBC0062AD82 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				35F311E120F93C880062AD82 /* Geometry */,
+				35757CA81FD5DBD50022C2FB /* KeyboardAppearObserver.swift */,
+				909B9B771FE1A2B800E840CA /* UIView+Extension.swift */,
+				350C03A120AB74DC006ADECF /* RoundLayerView.swift */,
+				35940B432066962E00BB7753 /* Gradient */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		35F311E120F93C880062AD82 /* Geometry */ = {
 			isa = PBXGroup;
 			children = (
 				35940B4920669D2E00BB7753 /* CGPoint+Extension.swift */,
@@ -193,68 +191,32 @@
 			path = Geometry;
 			sourceTree = "<group>";
 		};
-		359D332120F67C8600981FA3 /* ResultsController */ = {
+		35F311E220F93CA80062AD82 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				359D332220F67CA200981FA3 /* ResultsController.swift */,
-				359D332620F67EFB00981FA3 /* CoreDataResultsController.swift */,
 				359D332820F686E600981FA3 /* UITableView+ResultsControllerDelegate.swift */,
 			);
-			path = ResultsController;
+			path = iOS;
 			sourceTree = "<group>";
 		};
-		35F3117920F931120062AD82 /* MMFoundation_macOS */ = {
+		35F311E520F93CDB0062AD82 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				35F3117A20F931120062AD82 /* MMFoundation_macOS.h */,
-				35F3117B20F931120062AD82 /* Info.plist */,
+				35940B442066966700BB7753 /* GradientView.swift */,
+				350D55B820715F8900BB2F3B /* GradientButton.swift */,
+				359F703F20A8A3C800C9A694 /* GradientLayerBasing.swift */,
 			);
-			path = MMFoundation_macOS;
+			path = iOS;
 			sourceTree = "<group>";
 		};
-		35F3118420F931120062AD82 /* MMFoundation_macOSTests */ = {
+		35F311E920F93D310062AD82 /* UnitTests */ = {
 			isa = PBXGroup;
 			children = (
-				35F3118520F931120062AD82 /* MMFoundation_macOSTests.swift */,
-				35F3118720F931120062AD82 /* Info.plist */,
+				35757CAA1FD5E02F0022C2FB /* KeyboardAppearObserverTests.swift */,
+				352D29A4206AD56900B91E07 /* GradientsTest.swift */,
+				3587F47720A8C2D50072AF49 /* UIViewTests.swift */,
 			);
-			path = MMFoundation_macOSTests;
-			sourceTree = "<group>";
-		};
-		35F3119820F9337D0062AD82 /* MMFoundation-iOS */ = {
-			isa = PBXGroup;
-			children = (
-				35F3119920F9337D0062AD82 /* MMFoundation_iOS.h */,
-				35F3119A20F9337D0062AD82 /* Info.plist */,
-			);
-			path = "MMFoundation-iOS";
-			sourceTree = "<group>";
-		};
-		35F311A320F9337D0062AD82 /* MMFoundation-iOSTests */ = {
-			isa = PBXGroup;
-			children = (
-				35F311A420F9337D0062AD82 /* MMFoundation_iOSTests.swift */,
-				35F311A620F9337D0062AD82 /* Info.plist */,
-			);
-			path = "MMFoundation-iOSTests";
-			sourceTree = "<group>";
-		};
-		35F311B420F933A90062AD82 /* MMFoundation-macOS */ = {
-			isa = PBXGroup;
-			children = (
-				35F311B520F933A90062AD82 /* MMFoundation_macOS.h */,
-				35F311B620F933A90062AD82 /* Info.plist */,
-			);
-			path = "MMFoundation-macOS";
-			sourceTree = "<group>";
-		};
-		35F311BF20F933A90062AD82 /* MMFoundation-macOSTests */ = {
-			isa = PBXGroup;
-			children = (
-				35F311C020F933A90062AD82 /* MMFoundation_macOSTests.swift */,
-				35F311C220F933A90062AD82 /* Info.plist */,
-			);
-			path = "MMFoundation-macOSTests";
+			path = UnitTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -264,7 +226,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				35F311A720F9337D0062AD82 /* MMFoundation_iOS.h in Headers */,
+				35F311D020F938B90062AD82 /* MMFoundation.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,7 +234,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				35F311C320F933A90062AD82 /* MMFoundation_macOS.h in Headers */,
+				35F311D120F938B90062AD82 /* MMFoundation.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -435,6 +397,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				35F311D720F93A990062AD82 /* UITableView+ResultsControllerDelegate.swift in Sources */,
+				35F311DB20F93AD90062AD82 /* RoundLayerView.swift in Sources */,
+				35F311E620F93CEE0062AD82 /* GradientView.swift in Sources */,
+				35F311D820F93AB00062AD82 /* KeyboardAppearObserver.swift in Sources */,
+				35F311E720F93CF00062AD82 /* GradientButton.swift in Sources */,
+				35F311D320F93A860062AD82 /* ResultsController.swift in Sources */,
+				35F311DE20F93B4F0062AD82 /* CAGradienLayer+Extension.swift in Sources */,
+				35F311E320F93CD30062AD82 /* GradientRepresenting.swift in Sources */,
+				35F311DD20F93AE20062AD82 /* CGPoint+Extension.swift in Sources */,
+				35F311DA20F93ACE0062AD82 /* UIView+Extension.swift in Sources */,
+				35F311D420F93A890062AD82 /* CoreDataResultsController.swift in Sources */,
+				35F311E820F93CF30062AD82 /* GradientLayerBasing.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -442,7 +416,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				35F311A520F9337D0062AD82 /* MMFoundation_iOSTests.swift in Sources */,
+				35F311EC20F93D7D0062AD82 /* GradientsTest.swift in Sources */,
+				35F311EB20F93D6D0062AD82 /* UIViewTests.swift in Sources */,
+				35F311EA20F93D600062AD82 /* KeyboardAppearObserverTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -450,6 +426,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				35F311D220F93A860062AD82 /* ResultsController.swift in Sources */,
+				35F311DC20F93AE20062AD82 /* CGPoint+Extension.swift in Sources */,
+				35F311D520F93A8A0062AD82 /* CoreDataResultsController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -457,7 +436,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				35F311C120F933A90062AD82 /* MMFoundation_macOSTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -605,7 +583,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "MMFoundation-iOS/Info.plist";
+				INFOPLIST_FILE = "Sources/Configuration/Info-iOS.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -628,7 +606,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "MMFoundation-iOS/Info.plist";
+				INFOPLIST_FILE = "Sources/Configuration/Info-iOS.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -643,10 +621,11 @@
 		35F311AC20F9337D0062AD82 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CLANG_ENABLE_OBJC_WEAK = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = R77HUFLYN8;
-				INFOPLIST_FILE = "MMFoundation-iOSTests/Info.plist";
+				INFOPLIST_FILE = "Sources/Configuration/Info-iOS-unittests.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "michal.moskala.MMFoundation-iOSTests";
@@ -659,10 +638,11 @@
 		35F311AD20F9337D0062AD82 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CLANG_ENABLE_OBJC_WEAK = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = R77HUFLYN8;
-				INFOPLIST_FILE = "MMFoundation-iOSTests/Info.plist";
+				INFOPLIST_FILE = "Sources/Configuration/Info-iOS-unittests.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "michal.moskala.MMFoundation-iOSTests";
@@ -685,7 +665,7 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				FRAMEWORK_VERSION = A;
-				INFOPLIST_FILE = "MMFoundation-macOS/Info.plist";
+				INFOPLIST_FILE = "Sources/Configuration/Info-macOS.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.13;
@@ -710,7 +690,7 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				FRAMEWORK_VERSION = A;
-				INFOPLIST_FILE = "MMFoundation-macOS/Info.plist";
+				INFOPLIST_FILE = "Sources/Configuration/Info-macOS.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.13;
@@ -725,12 +705,13 @@
 		35F311C820F933A90062AD82 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CLANG_ENABLE_OBJC_WEAK = YES;
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = R77HUFLYN8;
-				INFOPLIST_FILE = "MMFoundation-macOSTests/Info.plist";
+				INFOPLIST_FILE = "Sources/Configuration/Info-macOS-unittests.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				PRODUCT_BUNDLE_IDENTIFIER = "michal.moskala.MMFoundation-macOSTests";
@@ -743,12 +724,13 @@
 		35F311C920F933A90062AD82 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CLANG_ENABLE_OBJC_WEAK = YES;
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = R77HUFLYN8;
-				INFOPLIST_FILE = "MMFoundation-macOSTests/Info.plist";
+				INFOPLIST_FILE = "Sources/Configuration/Info-macOS-unittests.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				PRODUCT_BUNDLE_IDENTIFIER = "michal.moskala.MMFoundation-macOSTests";

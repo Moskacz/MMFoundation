@@ -7,6 +7,7 @@
 //
 
 import Foundation
+import UIKit
 
 public protocol GradientRepresenting: Equatable {
     var colors: [UIColor] { get }
