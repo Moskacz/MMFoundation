@@ -7,47 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		350C03A220AB74DC006ADECF /* RoundLayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 350C03A120AB74DC006ADECF /* RoundLayerView.swift */; };
-		350D55B920715F8900BB2F3B /* GradientButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 350D55B820715F8900BB2F3B /* GradientButton.swift */; };
-		352708F8206971D9004DAF8D /* CAGradienLayer+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 352708F7206971D9004DAF8D /* CAGradienLayer+Extension.swift */; };
-		352D29A5206AD56900B91E07 /* GradientsTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 352D29A4206AD56900B91E07 /* GradientsTest.swift */; };
-		35757C981FD5DB2A0022C2FB /* MMFoundation_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35757C8E1FD5DB2A0022C2FB /* MMFoundation_iOS.framework */; };
-		35757C9D1FD5DB2A0022C2FB /* MMFoundationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35757C9C1FD5DB2A0022C2FB /* MMFoundationTests.swift */; };
-		35757C9F1FD5DB2A0022C2FB /* MMFoundation.h in Headers */ = {isa = PBXBuildFile; fileRef = 35757C911FD5DB2A0022C2FB /* MMFoundation.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		35757CA91FD5DBD50022C2FB /* KeyboardAppearObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35757CA81FD5DBD50022C2FB /* KeyboardAppearObserver.swift */; };
-		35757CAB1FD5E02F0022C2FB /* KeyboardAppearObserverTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35757CAA1FD5E02F0022C2FB /* KeyboardAppearObserverTests.swift */; };
-		3587F47820A8C2D50072AF49 /* UIViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3587F47720A8C2D50072AF49 /* UIViewTests.swift */; };
-		35940B452066966700BB7753 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35940B442066966700BB7753 /* GradientView.swift */; };
-		35940B47206696BF00BB7753 /* GradientRepresenting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35940B46206696BF00BB7753 /* GradientRepresenting.swift */; };
-		35940B4A20669D2E00BB7753 /* CGPoint+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35940B4920669D2E00BB7753 /* CGPoint+Extension.swift */; };
-		359D332320F67CA200981FA3 /* ResultsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 359D332220F67CA200981FA3 /* ResultsController.swift */; };
-		359D332720F67EFB00981FA3 /* CoreDataResultsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 359D332620F67EFB00981FA3 /* CoreDataResultsController.swift */; };
-		359D332920F686E600981FA3 /* UITableView+ResultsControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 359D332820F686E600981FA3 /* UITableView+ResultsControllerDelegate.swift */; };
-		359F704020A8A3C800C9A694 /* GradientLayerBasing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 359F703F20A8A3C800C9A694 /* GradientLayerBasing.swift */; };
-		35F14A972000EA6F005EDA59 /* WeakArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35F14A962000EA6F005EDA59 /* WeakArray.swift */; };
-		35F14A992000EBF4005EDA59 /* WeakArrayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35F14A982000EBF4005EDA59 /* WeakArrayTests.swift */; };
-		35F3118120F931120062AD82 /* MMFoundation_macOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35F3117820F931120062AD82 /* MMFoundation_macOS.framework */; };
-		35F3118620F931120062AD82 /* MMFoundation_macOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35F3118520F931120062AD82 /* MMFoundation_macOSTests.swift */; };
-		35F3118820F931120062AD82 /* MMFoundation_macOS.h in Headers */ = {isa = PBXBuildFile; fileRef = 35F3117A20F931120062AD82 /* MMFoundation_macOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		35FB7E1E20001762001929DF /* WeakBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35FB7E1D20001762001929DF /* WeakBox.swift */; };
-		35FB7E22200017CB001929DF /* WeakBoxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35FB7E21200017CB001929DF /* WeakBoxTests.swift */; };
-		909B9B781FE1A2B800E840CA /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 909B9B771FE1A2B800E840CA /* UIView+Extension.swift */; };
+		35F311A020F9337D0062AD82 /* MMFoundation_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35F3119720F9337D0062AD82 /* MMFoundation_iOS.framework */; };
+		35F311A520F9337D0062AD82 /* MMFoundation_iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35F311A420F9337D0062AD82 /* MMFoundation_iOSTests.swift */; };
+		35F311A720F9337D0062AD82 /* MMFoundation_iOS.h in Headers */ = {isa = PBXBuildFile; fileRef = 35F3119920F9337D0062AD82 /* MMFoundation_iOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		35F311BC20F933A90062AD82 /* MMFoundation_macOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35F311B320F933A90062AD82 /* MMFoundation_macOS.framework */; };
+		35F311C120F933A90062AD82 /* MMFoundation_macOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35F311C020F933A90062AD82 /* MMFoundation_macOSTests.swift */; };
+		35F311C320F933A90062AD82 /* MMFoundation_macOS.h in Headers */ = {isa = PBXBuildFile; fileRef = 35F311B520F933A90062AD82 /* MMFoundation_macOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		35757C991FD5DB2A0022C2FB /* PBXContainerItemProxy */ = {
+		35F311A120F9337D0062AD82 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 35757C851FD5DB2A0022C2FB /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 35757C8D1FD5DB2A0022C2FB;
-			remoteInfo = MMFoundation;
+			remoteGlobalIDString = 35F3119620F9337D0062AD82;
+			remoteInfo = "MMFoundation-iOS";
 		};
-		35F3118220F931120062AD82 /* PBXContainerItemProxy */ = {
+		35F311BD20F933A90062AD82 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 35757C851FD5DB2A0022C2FB /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 35F3117720F931120062AD82;
-			remoteInfo = MMFoundation_macOS;
+			remoteGlobalIDString = 35F311B220F933A90062AD82;
+			remoteInfo = "MMFoundation-macOS";
 		};
 /* End PBXContainerItemProxy section */
 
@@ -56,10 +37,8 @@
 		350D55B820715F8900BB2F3B /* GradientButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientButton.swift; sourceTree = "<group>"; };
 		352708F7206971D9004DAF8D /* CAGradienLayer+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CAGradienLayer+Extension.swift"; sourceTree = "<group>"; };
 		352D29A4206AD56900B91E07 /* GradientsTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientsTest.swift; sourceTree = "<group>"; };
-		35757C8E1FD5DB2A0022C2FB /* MMFoundation_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MMFoundation_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		35757C911FD5DB2A0022C2FB /* MMFoundation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MMFoundation.h; sourceTree = "<group>"; };
 		35757C921FD5DB2A0022C2FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		35757C971FD5DB2A0022C2FB /* MMFoundationTests_iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MMFoundationTests_iOS.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		35757C9C1FD5DB2A0022C2FB /* MMFoundationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MMFoundationTests.swift; sourceTree = "<group>"; };
 		35757C9E1FD5DB2A0022C2FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		35757CA81FD5DBD50022C2FB /* KeyboardAppearObserver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardAppearObserver.swift; sourceTree = "<group>"; };
@@ -74,45 +53,55 @@
 		359F703F20A8A3C800C9A694 /* GradientLayerBasing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientLayerBasing.swift; sourceTree = "<group>"; };
 		35F14A962000EA6F005EDA59 /* WeakArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeakArray.swift; sourceTree = "<group>"; };
 		35F14A982000EBF4005EDA59 /* WeakArrayTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeakArrayTests.swift; sourceTree = "<group>"; };
-		35F3117820F931120062AD82 /* MMFoundation_macOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MMFoundation_macOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		35F3117A20F931120062AD82 /* MMFoundation_macOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MMFoundation_macOS.h; sourceTree = "<group>"; };
 		35F3117B20F931120062AD82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		35F3118020F931120062AD82 /* MMFoundation_macOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MMFoundation_macOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		35F3118520F931120062AD82 /* MMFoundation_macOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MMFoundation_macOSTests.swift; sourceTree = "<group>"; };
 		35F3118720F931120062AD82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		35F3119720F9337D0062AD82 /* MMFoundation_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MMFoundation_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		35F3119920F9337D0062AD82 /* MMFoundation_iOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MMFoundation_iOS.h; sourceTree = "<group>"; };
+		35F3119A20F9337D0062AD82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		35F3119F20F9337D0062AD82 /* MMFoundation-iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MMFoundation-iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		35F311A420F9337D0062AD82 /* MMFoundation_iOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MMFoundation_iOSTests.swift; sourceTree = "<group>"; };
+		35F311A620F9337D0062AD82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		35F311B320F933A90062AD82 /* MMFoundation_macOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MMFoundation_macOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		35F311B520F933A90062AD82 /* MMFoundation_macOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MMFoundation_macOS.h; sourceTree = "<group>"; };
+		35F311B620F933A90062AD82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		35F311BB20F933A90062AD82 /* MMFoundation-macOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MMFoundation-macOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		35F311C020F933A90062AD82 /* MMFoundation_macOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MMFoundation_macOSTests.swift; sourceTree = "<group>"; };
+		35F311C220F933A90062AD82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		35FB7E1D20001762001929DF /* WeakBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeakBox.swift; sourceTree = "<group>"; };
 		35FB7E21200017CB001929DF /* WeakBoxTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeakBoxTests.swift; sourceTree = "<group>"; };
 		909B9B771FE1A2B800E840CA /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		35757C8A1FD5DB2A0022C2FB /* Frameworks */ = {
+		35F3119320F9337D0062AD82 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		35757C941FD5DB2A0022C2FB /* Frameworks */ = {
+		35F3119C20F9337D0062AD82 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				35757C981FD5DB2A0022C2FB /* MMFoundation_iOS.framework in Frameworks */,
+				35F311A020F9337D0062AD82 /* MMFoundation_iOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		35F3117420F931120062AD82 /* Frameworks */ = {
+		35F311AF20F933A90062AD82 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		35F3117D20F931120062AD82 /* Frameworks */ = {
+		35F311B820F933A90062AD82 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				35F3118120F931120062AD82 /* MMFoundation_macOS.framework in Frameworks */,
+				35F311BC20F933A90062AD82 /* MMFoundation_macOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -126,6 +115,10 @@
 				35757C9B1FD5DB2A0022C2FB /* MMFoundationTests */,
 				35F3117920F931120062AD82 /* MMFoundation_macOS */,
 				35F3118420F931120062AD82 /* MMFoundation_macOSTests */,
+				35F3119820F9337D0062AD82 /* MMFoundation-iOS */,
+				35F311A320F9337D0062AD82 /* MMFoundation-iOSTests */,
+				35F311B420F933A90062AD82 /* MMFoundation-macOS */,
+				35F311BF20F933A90062AD82 /* MMFoundation-macOSTests */,
 				35757C8F1FD5DB2A0022C2FB /* Products */,
 			);
 			sourceTree = "<group>";
@@ -133,10 +126,10 @@
 		35757C8F1FD5DB2A0022C2FB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				35757C8E1FD5DB2A0022C2FB /* MMFoundation_iOS.framework */,
-				35757C971FD5DB2A0022C2FB /* MMFoundationTests_iOS.xctest */,
-				35F3117820F931120062AD82 /* MMFoundation_macOS.framework */,
-				35F3118020F931120062AD82 /* MMFoundation_macOSTests.xctest */,
+				35F3119720F9337D0062AD82 /* MMFoundation_iOS.framework */,
+				35F3119F20F9337D0062AD82 /* MMFoundation-iOSTests.xctest */,
+				35F311B320F933A90062AD82 /* MMFoundation_macOS.framework */,
+				35F311BB20F933A90062AD82 /* MMFoundation-macOSTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -228,98 +221,134 @@
 			path = MMFoundation_macOSTests;
 			sourceTree = "<group>";
 		};
+		35F3119820F9337D0062AD82 /* MMFoundation-iOS */ = {
+			isa = PBXGroup;
+			children = (
+				35F3119920F9337D0062AD82 /* MMFoundation_iOS.h */,
+				35F3119A20F9337D0062AD82 /* Info.plist */,
+			);
+			path = "MMFoundation-iOS";
+			sourceTree = "<group>";
+		};
+		35F311A320F9337D0062AD82 /* MMFoundation-iOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				35F311A420F9337D0062AD82 /* MMFoundation_iOSTests.swift */,
+				35F311A620F9337D0062AD82 /* Info.plist */,
+			);
+			path = "MMFoundation-iOSTests";
+			sourceTree = "<group>";
+		};
+		35F311B420F933A90062AD82 /* MMFoundation-macOS */ = {
+			isa = PBXGroup;
+			children = (
+				35F311B520F933A90062AD82 /* MMFoundation_macOS.h */,
+				35F311B620F933A90062AD82 /* Info.plist */,
+			);
+			path = "MMFoundation-macOS";
+			sourceTree = "<group>";
+		};
+		35F311BF20F933A90062AD82 /* MMFoundation-macOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				35F311C020F933A90062AD82 /* MMFoundation_macOSTests.swift */,
+				35F311C220F933A90062AD82 /* Info.plist */,
+			);
+			path = "MMFoundation-macOSTests";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		35757C8B1FD5DB2A0022C2FB /* Headers */ = {
+		35F3119420F9337D0062AD82 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				35757C9F1FD5DB2A0022C2FB /* MMFoundation.h in Headers */,
+				35F311A720F9337D0062AD82 /* MMFoundation_iOS.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		35F3117520F931120062AD82 /* Headers */ = {
+		35F311B020F933A90062AD82 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				35F3118820F931120062AD82 /* MMFoundation_macOS.h in Headers */,
+				35F311C320F933A90062AD82 /* MMFoundation_macOS.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		35757C8D1FD5DB2A0022C2FB /* MMFoundation_iOS */ = {
+		35F3119620F9337D0062AD82 /* MMFoundation-iOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 35757CA21FD5DB2A0022C2FB /* Build configuration list for PBXNativeTarget "MMFoundation_iOS" */;
+			buildConfigurationList = 35F311A820F9337D0062AD82 /* Build configuration list for PBXNativeTarget "MMFoundation-iOS" */;
 			buildPhases = (
-				35757C891FD5DB2A0022C2FB /* Sources */,
-				35757C8A1FD5DB2A0022C2FB /* Frameworks */,
-				35757C8B1FD5DB2A0022C2FB /* Headers */,
-				35757C8C1FD5DB2A0022C2FB /* Resources */,
+				35F3119220F9337D0062AD82 /* Sources */,
+				35F3119320F9337D0062AD82 /* Frameworks */,
+				35F3119420F9337D0062AD82 /* Headers */,
+				35F3119520F9337D0062AD82 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = MMFoundation_iOS;
-			productName = MMFoundation;
-			productReference = 35757C8E1FD5DB2A0022C2FB /* MMFoundation_iOS.framework */;
+			name = "MMFoundation-iOS";
+			productName = "MMFoundation-iOS";
+			productReference = 35F3119720F9337D0062AD82 /* MMFoundation_iOS.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		35757C961FD5DB2A0022C2FB /* MMFoundationTests_iOS */ = {
+		35F3119E20F9337D0062AD82 /* MMFoundation-iOSTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 35757CA51FD5DB2A0022C2FB /* Build configuration list for PBXNativeTarget "MMFoundationTests_iOS" */;
+			buildConfigurationList = 35F311AB20F9337D0062AD82 /* Build configuration list for PBXNativeTarget "MMFoundation-iOSTests" */;
 			buildPhases = (
-				35757C931FD5DB2A0022C2FB /* Sources */,
-				35757C941FD5DB2A0022C2FB /* Frameworks */,
-				35757C951FD5DB2A0022C2FB /* Resources */,
+				35F3119B20F9337D0062AD82 /* Sources */,
+				35F3119C20F9337D0062AD82 /* Frameworks */,
+				35F3119D20F9337D0062AD82 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				35757C9A1FD5DB2A0022C2FB /* PBXTargetDependency */,
+				35F311A220F9337D0062AD82 /* PBXTargetDependency */,
 			);
-			name = MMFoundationTests_iOS;
-			productName = MMFoundationTests;
-			productReference = 35757C971FD5DB2A0022C2FB /* MMFoundationTests_iOS.xctest */;
+			name = "MMFoundation-iOSTests";
+			productName = "MMFoundation-iOSTests";
+			productReference = 35F3119F20F9337D0062AD82 /* MMFoundation-iOSTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		35F3117720F931120062AD82 /* MMFoundation_macOS */ = {
+		35F311B220F933A90062AD82 /* MMFoundation-macOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 35F3118D20F931120062AD82 /* Build configuration list for PBXNativeTarget "MMFoundation_macOS" */;
+			buildConfigurationList = 35F311C420F933A90062AD82 /* Build configuration list for PBXNativeTarget "MMFoundation-macOS" */;
 			buildPhases = (
-				35F3117320F931120062AD82 /* Sources */,
-				35F3117420F931120062AD82 /* Frameworks */,
-				35F3117520F931120062AD82 /* Headers */,
-				35F3117620F931120062AD82 /* Resources */,
+				35F311AE20F933A90062AD82 /* Sources */,
+				35F311AF20F933A90062AD82 /* Frameworks */,
+				35F311B020F933A90062AD82 /* Headers */,
+				35F311B120F933A90062AD82 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = MMFoundation_macOS;
-			productName = MMFoundation_macOS;
-			productReference = 35F3117820F931120062AD82 /* MMFoundation_macOS.framework */;
+			name = "MMFoundation-macOS";
+			productName = "MMFoundation-macOS";
+			productReference = 35F311B320F933A90062AD82 /* MMFoundation_macOS.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		35F3117F20F931120062AD82 /* MMFoundation_macOSTests */ = {
+		35F311BA20F933A90062AD82 /* MMFoundation-macOSTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 35F3118E20F931120062AD82 /* Build configuration list for PBXNativeTarget "MMFoundation_macOSTests" */;
+			buildConfigurationList = 35F311C720F933A90062AD82 /* Build configuration list for PBXNativeTarget "MMFoundation-macOSTests" */;
 			buildPhases = (
-				35F3117C20F931120062AD82 /* Sources */,
-				35F3117D20F931120062AD82 /* Frameworks */,
-				35F3117E20F931120062AD82 /* Resources */,
+				35F311B720F933A90062AD82 /* Sources */,
+				35F311B820F933A90062AD82 /* Frameworks */,
+				35F311B920F933A90062AD82 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				35F3118320F931120062AD82 /* PBXTargetDependency */,
+				35F311BE20F933A90062AD82 /* PBXTargetDependency */,
 			);
-			name = MMFoundation_macOSTests;
-			productName = MMFoundation_macOSTests;
-			productReference = 35F3118020F931120062AD82 /* MMFoundation_macOSTests.xctest */;
+			name = "MMFoundation-macOSTests";
+			productName = "MMFoundation-macOSTests";
+			productReference = 35F311BB20F933A90062AD82 /* MMFoundation-macOSTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -332,20 +361,19 @@
 				LastUpgradeCheck = 0930;
 				ORGANIZATIONNAME = "Michal Moskala";
 				TargetAttributes = {
-					35757C8D1FD5DB2A0022C2FB = {
-						CreatedOnToolsVersion = 9.1;
-						LastSwiftMigration = 0910;
-						ProvisioningStyle = Automatic;
-					};
-					35757C961FD5DB2A0022C2FB = {
-						CreatedOnToolsVersion = 9.1;
-						ProvisioningStyle = Automatic;
-					};
-					35F3117720F931120062AD82 = {
+					35F3119620F9337D0062AD82 = {
 						CreatedOnToolsVersion = 9.4.1;
 						ProvisioningStyle = Automatic;
 					};
-					35F3117F20F931120062AD82 = {
+					35F3119E20F9337D0062AD82 = {
+						CreatedOnToolsVersion = 9.4.1;
+						ProvisioningStyle = Automatic;
+					};
+					35F311B220F933A90062AD82 = {
+						CreatedOnToolsVersion = 9.4.1;
+						ProvisioningStyle = Automatic;
+					};
+					35F311BA20F933A90062AD82 = {
 						CreatedOnToolsVersion = 9.4.1;
 						ProvisioningStyle = Automatic;
 					};
@@ -363,37 +391,37 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				35757C8D1FD5DB2A0022C2FB /* MMFoundation_iOS */,
-				35757C961FD5DB2A0022C2FB /* MMFoundationTests_iOS */,
-				35F3117720F931120062AD82 /* MMFoundation_macOS */,
-				35F3117F20F931120062AD82 /* MMFoundation_macOSTests */,
+				35F3119620F9337D0062AD82 /* MMFoundation-iOS */,
+				35F3119E20F9337D0062AD82 /* MMFoundation-iOSTests */,
+				35F311B220F933A90062AD82 /* MMFoundation-macOS */,
+				35F311BA20F933A90062AD82 /* MMFoundation-macOSTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		35757C8C1FD5DB2A0022C2FB /* Resources */ = {
+		35F3119520F9337D0062AD82 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		35757C951FD5DB2A0022C2FB /* Resources */ = {
+		35F3119D20F9337D0062AD82 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		35F3117620F931120062AD82 /* Resources */ = {
+		35F311B120F933A90062AD82 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		35F3117E20F931120062AD82 /* Resources */ = {
+		35F311B920F933A90062AD82 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -403,67 +431,48 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		35757C891FD5DB2A0022C2FB /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				909B9B781FE1A2B800E840CA /* UIView+Extension.swift in Sources */,
-				35F14A972000EA6F005EDA59 /* WeakArray.swift in Sources */,
-				35940B452066966700BB7753 /* GradientView.swift in Sources */,
-				359D332920F686E600981FA3 /* UITableView+ResultsControllerDelegate.swift in Sources */,
-				35757CA91FD5DBD50022C2FB /* KeyboardAppearObserver.swift in Sources */,
-				359F704020A8A3C800C9A694 /* GradientLayerBasing.swift in Sources */,
-				350D55B920715F8900BB2F3B /* GradientButton.swift in Sources */,
-				350C03A220AB74DC006ADECF /* RoundLayerView.swift in Sources */,
-				352708F8206971D9004DAF8D /* CAGradienLayer+Extension.swift in Sources */,
-				359D332320F67CA200981FA3 /* ResultsController.swift in Sources */,
-				35940B4A20669D2E00BB7753 /* CGPoint+Extension.swift in Sources */,
-				359D332720F67EFB00981FA3 /* CoreDataResultsController.swift in Sources */,
-				35FB7E1E20001762001929DF /* WeakBox.swift in Sources */,
-				35940B47206696BF00BB7753 /* GradientRepresenting.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		35757C931FD5DB2A0022C2FB /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				3587F47820A8C2D50072AF49 /* UIViewTests.swift in Sources */,
-				35FB7E22200017CB001929DF /* WeakBoxTests.swift in Sources */,
-				35F14A992000EBF4005EDA59 /* WeakArrayTests.swift in Sources */,
-				352D29A5206AD56900B91E07 /* GradientsTest.swift in Sources */,
-				35757C9D1FD5DB2A0022C2FB /* MMFoundationTests.swift in Sources */,
-				35757CAB1FD5E02F0022C2FB /* KeyboardAppearObserverTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		35F3117320F931120062AD82 /* Sources */ = {
+		35F3119220F9337D0062AD82 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		35F3117C20F931120062AD82 /* Sources */ = {
+		35F3119B20F9337D0062AD82 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				35F3118620F931120062AD82 /* MMFoundation_macOSTests.swift in Sources */,
+				35F311A520F9337D0062AD82 /* MMFoundation_iOSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		35F311AE20F933A90062AD82 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		35F311B720F933A90062AD82 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35F311C120F933A90062AD82 /* MMFoundation_macOSTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		35757C9A1FD5DB2A0022C2FB /* PBXTargetDependency */ = {
+		35F311A220F9337D0062AD82 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 35757C8D1FD5DB2A0022C2FB /* MMFoundation_iOS */;
-			targetProxy = 35757C991FD5DB2A0022C2FB /* PBXContainerItemProxy */;
+			target = 35F3119620F9337D0062AD82 /* MMFoundation-iOS */;
+			targetProxy = 35F311A120F9337D0062AD82 /* PBXContainerItemProxy */;
 		};
-		35F3118320F931120062AD82 /* PBXTargetDependency */ = {
+		35F311BE20F933A90062AD82 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 35F3117720F931120062AD82 /* MMFoundation_macOS */;
-			targetProxy = 35F3118220F931120062AD82 /* PBXContainerItemProxy */;
+			target = 35F311B220F933A90062AD82 /* MMFoundation-macOS */;
+			targetProxy = 35F311BD20F933A90062AD82 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -585,10 +594,10 @@
 			};
 			name = Release;
 		};
-		35757CA31FD5DB2A0022C2FB /* Debug */ = {
+		35F311A920F9337D0062AD82 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -596,23 +605,22 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = MMFoundation/Info.plist;
+				INFOPLIST_FILE = "MMFoundation-iOS/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = michal.moskala.MMFoundation;
+				PRODUCT_BUNDLE_IDENTIFIER = "michal.moskala.MMFoundation-iOS";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		35757CA41FD5DB2A0022C2FB /* Release */ = {
+		35F311AA20F9337D0062AD82 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -620,11 +628,11 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = MMFoundation/Info.plist;
+				INFOPLIST_FILE = "MMFoundation-iOS/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = michal.moskala.MMFoundation;
+				PRODUCT_BUNDLE_IDENTIFIER = "michal.moskala.MMFoundation-iOS";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 4.0;
@@ -632,37 +640,39 @@
 			};
 			name = Release;
 		};
-		35757CA61FD5DB2A0022C2FB /* Debug */ = {
+		35F311AC20F9337D0062AD82 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = R77HUFLYN8;
-				INFOPLIST_FILE = MMFoundationTests/Info.plist;
+				INFOPLIST_FILE = "MMFoundation-iOSTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = michal.moskala.MMFoundationTests;
+				PRODUCT_BUNDLE_IDENTIFIER = "michal.moskala.MMFoundation-iOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		35757CA71FD5DB2A0022C2FB /* Release */ = {
+		35F311AD20F9337D0062AD82 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = R77HUFLYN8;
-				INFOPLIST_FILE = MMFoundationTests/Info.plist;
+				INFOPLIST_FILE = "MMFoundation-iOSTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = michal.moskala.MMFoundationTests;
+				PRODUCT_BUNDLE_IDENTIFIER = "michal.moskala.MMFoundation-iOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
-		35F3118920F931120062AD82 /* Debug */ = {
+		35F311C520F933A90062AD82 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = YES;
@@ -675,11 +685,11 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				FRAMEWORK_VERSION = A;
-				INFOPLIST_FILE = MMFoundation_macOS/Info.plist;
+				INFOPLIST_FILE = "MMFoundation-macOS/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.13;
-				PRODUCT_BUNDLE_IDENTIFIER = michal.moskala.MMFoundation;
+				PRODUCT_BUNDLE_IDENTIFIER = "michal.moskala.MMFoundation-macOS";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
@@ -687,7 +697,7 @@
 			};
 			name = Debug;
 		};
-		35F3118A20F931120062AD82 /* Release */ = {
+		35F311C620F933A90062AD82 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = YES;
@@ -700,11 +710,11 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				FRAMEWORK_VERSION = A;
-				INFOPLIST_FILE = MMFoundation_macOS/Info.plist;
+				INFOPLIST_FILE = "MMFoundation-macOS/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.13;
-				PRODUCT_BUNDLE_IDENTIFIER = michal.moskala.MMFoundation;
+				PRODUCT_BUNDLE_IDENTIFIER = "michal.moskala.MMFoundation-macOS";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
@@ -712,7 +722,7 @@
 			};
 			name = Release;
 		};
-		35F3118B20F931120062AD82 /* Debug */ = {
+		35F311C820F933A90062AD82 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = YES;
@@ -720,7 +730,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = R77HUFLYN8;
-				INFOPLIST_FILE = MMFoundation_macOSTests/Info.plist;
+				INFOPLIST_FILE = "MMFoundation-macOSTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				PRODUCT_BUNDLE_IDENTIFIER = "michal.moskala.MMFoundation-macOSTests";
@@ -730,7 +740,7 @@
 			};
 			name = Debug;
 		};
-		35F3118C20F931120062AD82 /* Release */ = {
+		35F311C920F933A90062AD82 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = YES;
@@ -738,7 +748,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = R77HUFLYN8;
-				INFOPLIST_FILE = MMFoundation_macOSTests/Info.plist;
+				INFOPLIST_FILE = "MMFoundation-macOSTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				PRODUCT_BUNDLE_IDENTIFIER = "michal.moskala.MMFoundation-macOSTests";
@@ -760,38 +770,38 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		35757CA21FD5DB2A0022C2FB /* Build configuration list for PBXNativeTarget "MMFoundation_iOS" */ = {
+		35F311A820F9337D0062AD82 /* Build configuration list for PBXNativeTarget "MMFoundation-iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				35757CA31FD5DB2A0022C2FB /* Debug */,
-				35757CA41FD5DB2A0022C2FB /* Release */,
+				35F311A920F9337D0062AD82 /* Debug */,
+				35F311AA20F9337D0062AD82 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		35757CA51FD5DB2A0022C2FB /* Build configuration list for PBXNativeTarget "MMFoundationTests_iOS" */ = {
+		35F311AB20F9337D0062AD82 /* Build configuration list for PBXNativeTarget "MMFoundation-iOSTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				35757CA61FD5DB2A0022C2FB /* Debug */,
-				35757CA71FD5DB2A0022C2FB /* Release */,
+				35F311AC20F9337D0062AD82 /* Debug */,
+				35F311AD20F9337D0062AD82 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		35F3118D20F931120062AD82 /* Build configuration list for PBXNativeTarget "MMFoundation_macOS" */ = {
+		35F311C420F933A90062AD82 /* Build configuration list for PBXNativeTarget "MMFoundation-macOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				35F3118920F931120062AD82 /* Debug */,
-				35F3118A20F931120062AD82 /* Release */,
+				35F311C520F933A90062AD82 /* Debug */,
+				35F311C620F933A90062AD82 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		35F3118E20F931120062AD82 /* Build configuration list for PBXNativeTarget "MMFoundation_macOSTests" */ = {
+		35F311C720F933A90062AD82 /* Build configuration list for PBXNativeTarget "MMFoundation-macOSTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				35F3118B20F931120062AD82 /* Debug */,
-				35F3118C20F931120062AD82 /* Release */,
+				35F311C820F933A90062AD82 /* Debug */,
+				35F311C920F933A90062AD82 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
