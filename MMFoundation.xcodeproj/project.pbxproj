@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		35F311A020F9337D0062AD82 /* MMFoundation_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35F3119720F9337D0062AD82 /* MMFoundation_iOS.framework */; };
-		35F311BC20F933A90062AD82 /* MMFoundation_macOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35F311B320F933A90062AD82 /* MMFoundation_macOS.framework */; };
+		35F311A020F9337D0062AD82 /* MMFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35F3119720F9337D0062AD82 /* MMFoundation.framework */; };
+		35F311BC20F933A90062AD82 /* MMFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35F311B320F933A90062AD82 /* MMFoundation.framework */; };
 		35F311D020F938B90062AD82 /* MMFoundation.h in Headers */ = {isa = PBXBuildFile; fileRef = 35F311CF20F938B90062AD82 /* MMFoundation.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		35F311D120F938B90062AD82 /* MMFoundation.h in Headers */ = {isa = PBXBuildFile; fileRef = 35F311CF20F938B90062AD82 /* MMFoundation.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		35F311D220F93A860062AD82 /* ResultsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 359D332220F67CA200981FA3 /* ResultsController.swift */; };
@@ -29,6 +29,16 @@
 		35F311EA20F93D600062AD82 /* KeyboardAppearObserverTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35757CAA1FD5E02F0022C2FB /* KeyboardAppearObserverTests.swift */; };
 		35F311EB20F93D6D0062AD82 /* UIViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3587F47720A8C2D50072AF49 /* UIViewTests.swift */; };
 		35F311EC20F93D7D0062AD82 /* GradientsTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 352D29A4206AD56900B91E07 /* GradientsTest.swift */; };
+		35F311F020F942D50062AD82 /* Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35F311EF20F942D50062AD82 /* Image.swift */; };
+		35F311F120F942D50062AD82 /* Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35F311EF20F942D50062AD82 /* Image.swift */; };
+		35F311F320F942DC0062AD82 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35F311F220F942DC0062AD82 /* Color.swift */; };
+		35F311F420F942DC0062AD82 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35F311F220F942DC0062AD82 /* Color.swift */; };
+		35F311F520F943110062AD82 /* GradientRepresenting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35940B46206696BF00BB7753 /* GradientRepresenting.swift */; };
+		35F311F620F943200062AD82 /* CAGradienLayer+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 352708F7206971D9004DAF8D /* CAGradienLayer+Extension.swift */; };
+		35F311F820F943370062AD82 /* SegmentedControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35F311F720F943370062AD82 /* SegmentedControl.swift */; };
+		35F311F920F943370062AD82 /* SegmentedControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35F311F720F943370062AD82 /* SegmentedControl.swift */; };
+		35F311FC20F9444D0062AD82 /* SegmentedControlTests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35F311FA20F9444C0062AD82 /* SegmentedControlTests_iOS.swift */; };
+		35F311FF20F9444D0062AD82 /* SegmentedControlTests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35F311FB20F9444D0062AD82 /* SegmentedControlTests_macOS.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,15 +73,20 @@
 		359D332620F67EFB00981FA3 /* CoreDataResultsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataResultsController.swift; sourceTree = "<group>"; };
 		359D332820F686E600981FA3 /* UITableView+ResultsControllerDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView+ResultsControllerDelegate.swift"; sourceTree = "<group>"; };
 		359F703F20A8A3C800C9A694 /* GradientLayerBasing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientLayerBasing.swift; sourceTree = "<group>"; };
-		35F3119720F9337D0062AD82 /* MMFoundation_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MMFoundation_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		35F3119720F9337D0062AD82 /* MMFoundation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MMFoundation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		35F3119A20F9337D0062AD82 /* Info-iOS.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Info-iOS.plist"; sourceTree = "<group>"; };
 		35F3119F20F9337D0062AD82 /* MMFoundation-iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MMFoundation-iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		35F311A620F9337D0062AD82 /* Info-iOS-unittests.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Info-iOS-unittests.plist"; sourceTree = "<group>"; };
-		35F311B320F933A90062AD82 /* MMFoundation_macOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MMFoundation_macOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		35F311B320F933A90062AD82 /* MMFoundation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MMFoundation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		35F311B620F933A90062AD82 /* Info-macOS.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Info-macOS.plist"; sourceTree = "<group>"; };
 		35F311BB20F933A90062AD82 /* MMFoundation-macOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MMFoundation-macOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		35F311C220F933A90062AD82 /* Info-macOS-unittests.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Info-macOS-unittests.plist"; sourceTree = "<group>"; };
 		35F311CF20F938B90062AD82 /* MMFoundation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MMFoundation.h; sourceTree = "<group>"; };
+		35F311EF20F942D50062AD82 /* Image.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Image.swift; sourceTree = "<group>"; };
+		35F311F220F942DC0062AD82 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		35F311F720F943370062AD82 /* SegmentedControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentedControl.swift; sourceTree = "<group>"; };
+		35F311FA20F9444C0062AD82 /* SegmentedControlTests_iOS.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SegmentedControlTests_iOS.swift; sourceTree = "<group>"; };
+		35F311FB20F9444D0062AD82 /* SegmentedControlTests_macOS.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SegmentedControlTests_macOS.swift; sourceTree = "<group>"; };
 		909B9B771FE1A2B800E840CA /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -87,7 +102,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				35F311A020F9337D0062AD82 /* MMFoundation_iOS.framework in Frameworks */,
+				35F311A020F9337D0062AD82 /* MMFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -102,7 +117,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				35F311BC20F933A90062AD82 /* MMFoundation_macOS.framework in Frameworks */,
+				35F311BC20F933A90062AD82 /* MMFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -121,9 +136,9 @@
 		35757C8F1FD5DB2A0022C2FB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				35F3119720F9337D0062AD82 /* MMFoundation_iOS.framework */,
+				35F3119720F9337D0062AD82 /* MMFoundation.framework */,
 				35F3119F20F9337D0062AD82 /* MMFoundation-iOSTests.xctest */,
-				35F311B320F933A90062AD82 /* MMFoundation_macOS.framework */,
+				35F311B320F933A90062AD82 /* MMFoundation.framework */,
 				35F311BB20F933A90062AD82 /* MMFoundation-macOSTests.xctest */,
 			);
 			name = Products;
@@ -152,6 +167,7 @@
 		35F311CA20F9366A0062AD82 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				35F311EE20F942C30062AD82 /* Typealiases */,
 				359D332120F67C8600981FA3 /* ResultsController */,
 				35F311E020F93BBC0062AD82 /* UI */,
 				35F311CB20F9368A0062AD82 /* Configuration */,
@@ -212,11 +228,23 @@
 		35F311E920F93D310062AD82 /* UnitTests */ = {
 			isa = PBXGroup;
 			children = (
+				35F311FA20F9444C0062AD82 /* SegmentedControlTests_iOS.swift */,
+				35F311FB20F9444D0062AD82 /* SegmentedControlTests_macOS.swift */,
 				35757CAA1FD5E02F0022C2FB /* KeyboardAppearObserverTests.swift */,
 				352D29A4206AD56900B91E07 /* GradientsTest.swift */,
 				3587F47720A8C2D50072AF49 /* UIViewTests.swift */,
 			);
 			path = UnitTests;
+			sourceTree = "<group>";
+		};
+		35F311EE20F942C30062AD82 /* Typealiases */ = {
+			isa = PBXGroup;
+			children = (
+				35F311EF20F942D50062AD82 /* Image.swift */,
+				35F311F220F942DC0062AD82 /* Color.swift */,
+				35F311F720F943370062AD82 /* SegmentedControl.swift */,
+			);
+			path = Typealiases;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -256,7 +284,7 @@
 			);
 			name = "MMFoundation-iOS";
 			productName = "MMFoundation-iOS";
-			productReference = 35F3119720F9337D0062AD82 /* MMFoundation_iOS.framework */;
+			productReference = 35F3119720F9337D0062AD82 /* MMFoundation.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		35F3119E20F9337D0062AD82 /* MMFoundation-iOSTests */ = {
@@ -292,7 +320,7 @@
 			);
 			name = "MMFoundation-macOS";
 			productName = "MMFoundation-macOS";
-			productReference = 35F311B320F933A90062AD82 /* MMFoundation_macOS.framework */;
+			productReference = 35F311B320F933A90062AD82 /* MMFoundation.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		35F311BA20F933A90062AD82 /* MMFoundation-macOSTests */ = {
@@ -337,6 +365,7 @@
 					};
 					35F311BA20F933A90062AD82 = {
 						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 0940;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -403,11 +432,14 @@
 				35F311D820F93AB00062AD82 /* KeyboardAppearObserver.swift in Sources */,
 				35F311E720F93CF00062AD82 /* GradientButton.swift in Sources */,
 				35F311D320F93A860062AD82 /* ResultsController.swift in Sources */,
+				35F311F020F942D50062AD82 /* Image.swift in Sources */,
 				35F311DE20F93B4F0062AD82 /* CAGradienLayer+Extension.swift in Sources */,
 				35F311E320F93CD30062AD82 /* GradientRepresenting.swift in Sources */,
+				35F311F320F942DC0062AD82 /* Color.swift in Sources */,
 				35F311DD20F93AE20062AD82 /* CGPoint+Extension.swift in Sources */,
 				35F311DA20F93ACE0062AD82 /* UIView+Extension.swift in Sources */,
 				35F311D420F93A890062AD82 /* CoreDataResultsController.swift in Sources */,
+				35F311F820F943370062AD82 /* SegmentedControl.swift in Sources */,
 				35F311E820F93CF30062AD82 /* GradientLayerBasing.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -416,6 +448,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				35F311FC20F9444D0062AD82 /* SegmentedControlTests_iOS.swift in Sources */,
 				35F311EC20F93D7D0062AD82 /* GradientsTest.swift in Sources */,
 				35F311EB20F93D6D0062AD82 /* UIViewTests.swift in Sources */,
 				35F311EA20F93D600062AD82 /* KeyboardAppearObserverTests.swift in Sources */,
@@ -427,8 +460,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				35F311D220F93A860062AD82 /* ResultsController.swift in Sources */,
+				35F311F120F942D50062AD82 /* Image.swift in Sources */,
 				35F311DC20F93AE20062AD82 /* CGPoint+Extension.swift in Sources */,
+				35F311F420F942DC0062AD82 /* Color.swift in Sources */,
+				35F311F620F943200062AD82 /* CAGradienLayer+Extension.swift in Sources */,
 				35F311D520F93A8A0062AD82 /* CoreDataResultsController.swift in Sources */,
+				35F311F920F943370062AD82 /* SegmentedControl.swift in Sources */,
+				35F311F520F943110062AD82 /* GradientRepresenting.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -436,6 +474,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				35F311FF20F9444D0062AD82 /* SegmentedControlTests_macOS.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -587,8 +626,8 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "michal.moskala.MMFoundation-iOS";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = michal.moskala.MMFoundation;
+				PRODUCT_NAME = "$(PROJECT_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -610,8 +649,8 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "michal.moskala.MMFoundation-iOS";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = michal.moskala.MMFoundation;
+				PRODUCT_NAME = "$(PROJECT_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -669,8 +708,8 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.13;
-				PRODUCT_BUNDLE_IDENTIFIER = "michal.moskala.MMFoundation-macOS";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = michal.moskala.MMFoundation;
+				PRODUCT_NAME = "$(PROJECT_NAME)";
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 4.0;
@@ -694,8 +733,8 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.13;
-				PRODUCT_BUNDLE_IDENTIFIER = "michal.moskala.MMFoundation-macOS";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = michal.moskala.MMFoundation;
+				PRODUCT_NAME = "$(PROJECT_NAME)";
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 4.0;
@@ -706,6 +745,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_WEAK = YES;
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				CODE_SIGN_STYLE = Automatic;
@@ -717,6 +757,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "michal.moskala.MMFoundation-macOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
@@ -725,6 +766,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_WEAK = YES;
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				CODE_SIGN_STYLE = Automatic;

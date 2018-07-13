@@ -7,26 +7,26 @@
 //
 
 import Foundation
-import UIKit
+import CoreGraphics
 
 public protocol GradientRepresenting: Equatable {
-    var colors: [UIColor] { get }
+    var colors: [Color] { get }
     var startPoint: CGPoint { get }
     var endPoint: CGPoint { get }
 }
 
 public struct Gradient: GradientRepresenting, Equatable {
-    public var colors: [UIColor]
+    public var colors: [Color]
     public var startPoint: CGPoint
     public var endPoint: CGPoint
     
-    public init(colors: [UIColor], startPoint: CGPoint, endPoint: CGPoint) {
+    public init(colors: [Color], startPoint: CGPoint, endPoint: CGPoint) {
         self.colors = colors
         self.startPoint = startPoint
         self.endPoint = endPoint
     }
     
-    public init(colors: [UIColor], direction: GradientDirection) {
+    public init(colors: [Color], direction: GradientDirection) {
         let points = direction.points
         self.init(colors: colors, startPoint: points.startPoint, endPoint: points.endPoint)
     }
