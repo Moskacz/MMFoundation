@@ -13,7 +13,7 @@ public class CoreDataResultsController<T: NSFetchRequestResult>: ResultsControll
     
     private let frc: NSFetchedResultsController<T>
     
-    init(frc: NSFetchedResultsController<T>) {
+    public init(frc: NSFetchedResultsController<T>) {
         self.frc = frc
     }
     
