@@ -16,13 +16,21 @@ import UIKit
 public typealias Color = UIColor
 #endif
 
-extension Color {
+public extension Color {
     
-    func encode() -> Data {
+    public func encode() -> Data {
         return NSKeyedArchiver.archivedData(withRootObject:self)
     }
     
-    class func color(fromData data: Data) -> Color? {
+    public class func color(fromData data: Data) -> Color? {
         return NSKeyedUnarchiver.unarchiveObject(with: data) as? Color
+    }
+    
+    public static func hsb(h: CGFloat, s: CGFloat, b: CGFloat) -> Color {
+        #if os(iOS)
+            return Color(hue: h, saturation: s, brightness: b, alpha: 1)
+        #elseif os(OSX)
+            return Color(deviceHue: h, saturation: s, brightness: b, alpha: 1)
+        #endif
     }
 }
