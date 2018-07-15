@@ -9,11 +9,11 @@
 import Foundation
 
 public class ResultsController<T>: NSObject {
-    weak var delegate: ResultsControllerDelegate?
-    func loadData() throws { fatalError("abstract method")}
-    func object(at indexPath: IndexPath) -> T { fatalError("abstract method") }
-    var sectionsCount: Int { fatalError("abstract method") }
-    func objects(in section: Int) -> [T]? { fatalError("abstract method")}
+    public weak var delegate: ResultsControllerDelegate?
+    public func loadData() throws { fatalError("abstract method")}
+    public func object(at indexPath: IndexPath) -> T { fatalError("abstract method") }
+    public var sectionsCount: Int { fatalError("abstract method") }
+    public func objects(in section: Int) -> [T]? { fatalError("abstract method")}
 }
 
 public protocol ResultsControllerDelegate: class {
