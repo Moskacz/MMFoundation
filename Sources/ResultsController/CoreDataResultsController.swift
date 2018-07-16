@@ -9,29 +9,23 @@
 import Foundation
 import CoreData
 
-public class CoreDataResultsController<T: NSFetchRequestResult>: ResultsController<T>, NSFetchedResultsControllerDelegate {
+open class CoreDataResultsController<T: NSManagedObject>: ResultsController<T>, NSFetchedResultsControllerDelegate {
     
     private let frc: NSFetchedResultsController<T>
     
     public init(frc: NSFetchedResultsController<T>) {
         self.frc = frc
-    }
-    
-    override func object(at indexPath: IndexPath) -> T {
-        return frc.object(at: indexPath)
-    }
-    
-    override func objects(in section: Int) -> [T]? {
-        return frc.sections?[section].objects as? [T]
+        super.init()
+        self.frc.delegate = self
     }
     
     // MARK: NSFetchedResultsControllerDelegate
     
-    public func controllerWillChangeContent(_ controller: NSFetchedResultsController<NSFetchRequestResult>) {
+    open func controllerWillChangeContent(_ controller: NSFetchedResultsController<NSFetchRequestResult>) {
         delegate?.resultsControllerWillChangeContent()
     }
     
-    public func controller(_ controller: NSFetchedResultsController<NSFetchRequestResult>,
+    open func controller(_ controller: NSFetchedResultsController<NSFetchRequestResult>,
                            didChange anObject: Any,
                            at indexPath: IndexPath?,
                            for type: NSFetchedResultsChangeType,
@@ -46,7 +40,7 @@ public class CoreDataResultsController<T: NSFetchRequestResult>: ResultsControll
         delegate?.resultsControllerDid(change: change)
     }
     
-    public func controller(_ controller: NSFetchedResultsController<NSFetchRequestResult>,
+    open func controller(_ controller: NSFetchedResultsController<NSFetchRequestResult>,
                            didChange sectionInfo: NSFetchedResultsSectionInfo,
                            atSectionIndex sectionIndex: Int,
                            for type: NSFetchedResultsChangeType) {
@@ -60,7 +54,7 @@ public class CoreDataResultsController<T: NSFetchRequestResult>: ResultsControll
         }
     }
     
-    public func controllerDidChangeContent(_ controller: NSFetchedResultsController<NSFetchRequestResult>) {
+    open func controllerDidChangeContent(_ controller: NSFetchedResultsController<NSFetchRequestResult>) {
         delegate?.resultsControllerDidChangeContent()
     }
 }
