@@ -19,6 +19,22 @@ open class CoreDataResultsController<T: NSManagedObject>: ResultsController<T>, 
         self.frc.delegate = self
     }
     
+    open override func loadData() throws {
+        try self.frc.performFetch()
+    }
+    
+    open override func object(at indexPath: IndexPath) -> T {
+        return frc.object(at: indexPath)
+    }
+    
+    open override func objects(in section: Int) -> [T]? {
+        return frc.sections?[section].objects as? [T]
+    }
+    
+    open override var sectionsCount: Int {
+        return frc.sections?.count ?? 0
+    }
+    
     // MARK: NSFetchedResultsControllerDelegate
     
     open func controllerWillChangeContent(_ controller: NSFetchedResultsController<NSFetchRequestResult>) {
