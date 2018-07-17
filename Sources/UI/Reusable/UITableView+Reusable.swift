@@ -11,7 +11,11 @@ import UIKit
 
 public extension UITableView {
     
-    func register(cell: Reusable.Type) {
+    public func register(cell: Reusable.Type) {
         register(cell.nib, forCellReuseIdentifier: cell.reuseId)
+    }
+    
+    public func dequeue<T: Reusable>() -> T {
+        return dequeueReusableCell(withIdentifier: T.reuseId) as! T
     }
 }

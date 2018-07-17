@@ -10,6 +10,8 @@
 		35D4381820FE7986000E0A46 /* ResultsControllerTableViewAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35D4381720FE7986000E0A46 /* ResultsControllerTableViewAdapter.swift */; };
 		35D4381C20FE7B4B000E0A46 /* Reusable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35D4381B20FE7B4B000E0A46 /* Reusable.swift */; };
 		35D4381F20FE7B6D000E0A46 /* UITableView+Reusable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35D4381E20FE7B6D000E0A46 /* UITableView+Reusable.swift */; };
+		35D4382520FE82B0000E0A46 /* CellDescriptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35D4382420FE82B0000E0A46 /* CellDescriptor.swift */; };
+		35D4382620FE82B0000E0A46 /* CellDescriptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35D4382420FE82B0000E0A46 /* CellDescriptor.swift */; };
 		35F311A020F9337D0062AD82 /* MMFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35F3119720F9337D0062AD82 /* MMFoundation.framework */; };
 		35F311BC20F933A90062AD82 /* MMFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35F311B320F933A90062AD82 /* MMFoundation.framework */; };
 		35F311D020F938B90062AD82 /* MMFoundation.h in Headers */ = {isa = PBXBuildFile; fileRef = 35F311CF20F938B90062AD82 /* MMFoundation.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -79,6 +81,7 @@
 		35D4381720FE7986000E0A46 /* ResultsControllerTableViewAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsControllerTableViewAdapter.swift; sourceTree = "<group>"; };
 		35D4381B20FE7B4B000E0A46 /* Reusable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reusable.swift; sourceTree = "<group>"; };
 		35D4381E20FE7B6D000E0A46 /* UITableView+Reusable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView+Reusable.swift"; sourceTree = "<group>"; };
+		35D4382420FE82B0000E0A46 /* CellDescriptor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellDescriptor.swift; sourceTree = "<group>"; };
 		35F3119720F9337D0062AD82 /* MMFoundation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MMFoundation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		35F3119A20F9337D0062AD82 /* Info-iOS.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Info-iOS.plist"; sourceTree = "<group>"; };
 		35F3119F20F9337D0062AD82 /* MMFoundation-iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MMFoundation-iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -166,6 +169,7 @@
 				35F311E220F93CA80062AD82 /* iOS */,
 				359D332220F67CA200981FA3 /* ResultsController.swift */,
 				359D332620F67EFB00981FA3 /* CoreDataResultsController.swift */,
+				35D4382420FE82B0000E0A46 /* CellDescriptor.swift */,
 			);
 			path = ResultsController;
 			sourceTree = "<group>";
@@ -458,6 +462,7 @@
 				35D4381C20FE7B4B000E0A46 /* Reusable.swift in Sources */,
 				35F311DA20F93ACE0062AD82 /* UIView+Extension.swift in Sources */,
 				35D4381820FE7986000E0A46 /* ResultsControllerTableViewAdapter.swift in Sources */,
+				35D4382520FE82B0000E0A46 /* CellDescriptor.swift in Sources */,
 				35F311D420F93A890062AD82 /* CoreDataResultsController.swift in Sources */,
 				35F311F820F943370062AD82 /* SegmentedControl.swift in Sources */,
 				35F311E820F93CF30062AD82 /* GradientLayerBasing.swift in Sources */,
@@ -484,6 +489,7 @@
 				35F311DC20F93AE20062AD82 /* CGPoint+Extension.swift in Sources */,
 				35F311F420F942DC0062AD82 /* Color.swift in Sources */,
 				35F311F620F943200062AD82 /* CAGradienLayer+Extension.swift in Sources */,
+				35D4382620FE82B0000E0A46 /* CellDescriptor.swift in Sources */,
 				35F311D520F93A8A0062AD82 /* CoreDataResultsController.swift in Sources */,
 				35F311F920F943370062AD82 /* SegmentedControl.swift in Sources */,
 				35F311F520F943110062AD82 /* GradientRepresenting.swift in Sources */,

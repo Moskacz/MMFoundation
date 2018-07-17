@@ -9,13 +9,15 @@
 import Foundation
 import UIKit
 
-public final class ResultsControllerTableViewAdapter<T, Cell: UITableViewCell>: NSObject, UITableViewDataSource where Cell: Reusable {
+public final class ResultsControllerTableViewAdapter<T, Cell: UITableViewCell, Descriptor: CellDescriptor>: NSObject, UITableViewDataSource where Cell: Reusable, Descriptor.T == T, Descriptor.Cell == Cell {
     
     private let resultsController: ResultsController<T>
+    private let cellDescriptor: Descriptor
     private weak var tableView: UITableView?
     
-    public init(resultsController: ResultsController<T>, tableView: UITableView?) {
+    public init(resultsController: ResultsController<T>, cellDescriptor: Descriptor, tableView: UITableView?) {
         self.resultsController = resultsController
+        self.cellDescriptor = cellDescriptor
         self.tableView = tableView
         super.init()
         registerCell()
@@ -36,7 +38,9 @@ public final class ResultsControllerTableViewAdapter<T, Cell: UITableViewCell>: 
     }
     
     public func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: Cell.reuseId)!
+        let cell: Cell = tableView.dequeue()
+        let object = resultsController.object(at: indexPath)
+        cellDescriptor.configure(cell: cell, with: object)
         return cell
     }
 }
