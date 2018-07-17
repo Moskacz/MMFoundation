@@ -11,7 +11,7 @@ import UIKit
 
 public extension UITableView {
     
-    func register(cell: Reusable) {
+    func register(cell: Reusable.Type) {
         register(cell.nib, forCellReuseIdentifier: cell.reuseId)
     }
 }

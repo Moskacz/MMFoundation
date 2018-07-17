@@ -10,21 +10,21 @@ import Foundation
 import UIKit
 
 public protocol Reusable {
-    var nib: UINib { get }
-    var reuseId: String { get }
+    static var nib: UINib { get }
+    static var reuseId: String { get }
 }
 
 extension Reusable where Self: UITableViewCell {
-    
-    private var cellName: String {
+
+    private static var cellName: String {
         return String(describing: self)
     }
-    
-    var nib: UINib {
+
+    static var nib: UINib {
         return UINib(nibName: cellName, bundle: nil)
     }
-    
-    var reuseId: String {
+
+    static var reuseId: String {
         return cellName
     }
 }
