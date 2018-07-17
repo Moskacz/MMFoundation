@@ -9,7 +9,7 @@
 import Foundation
 import UIKit
 
-public final class ResultsControllerTableViewAdapter<T> {
+public final class ResultsControllerTableViewAdapter<T, Cell: UITableViewCell> {
     
     private let resultsController: ResultsController<T>
     private weak var tableView: UITableView?
@@ -18,4 +18,6 @@ public final class ResultsControllerTableViewAdapter<T> {
         self.resultsController = resultsController
         self.tableView = tableView
     }
+    
+    
 }
