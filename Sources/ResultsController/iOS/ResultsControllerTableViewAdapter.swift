@@ -9,7 +9,7 @@
 import Foundation
 import UIKit
 
-public final class ResultsControllerTableViewAdapter<T, Cell: UITableViewCell, Descriptor: CellDescriptor>: NSObject, UITableViewDataSource where Cell: Reusable, Descriptor.T == T, Descriptor.Cell == Cell {
+open class ResultsControllerTableViewAdapter<T, Cell: UITableViewCell, Descriptor: CellDescriptor>: NSObject, UITableViewDataSource where Cell: Reusable, Descriptor.T == T, Descriptor.Cell == Cell {
     
     private let resultsController: ResultsController<T>
     private let cellDescriptor: Descriptor
@@ -29,15 +29,15 @@ public final class ResultsControllerTableViewAdapter<T, Cell: UITableViewCell, D
     
     // MARK: UITableViewDataSource
     
-    public func numberOfSections(in tableView: UITableView) -> Int {
+    public final func numberOfSections(in tableView: UITableView) -> Int {
         return resultsController.sectionsCount
     }
     
-    public func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+    public final func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return resultsController.objects(in: section)?.count ?? 0
     }
     
-    public func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+    public final func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell: Cell = tableView.dequeue()
         let object = resultsController.object(at: indexPath)
         cellDescriptor.configure(cell: cell, with: object)
