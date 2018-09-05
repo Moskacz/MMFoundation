@@ -19,3 +19,4 @@ public extension UITableView {
         return dequeueReusableCell(withIdentifier: T.reuseId) as! T
     }
 }
+

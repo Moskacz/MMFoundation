@@ -14,7 +14,7 @@ public protocol Reusable {
     static var reuseId: String { get }
 }
 
-extension Reusable where Self: UITableViewCell {
+public extension Reusable where Self: UITableViewCell {
 
     private static var cellName: String {
         return String(describing: self)
