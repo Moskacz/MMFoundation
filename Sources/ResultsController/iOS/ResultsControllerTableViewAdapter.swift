@@ -11,7 +11,7 @@ import UIKit
 
 open class ResultsControllerTableViewAdapter<T, Cell: UITableViewCell, Descriptor: CellDescriptor>: NSObject, UITableViewDataSource where Cell: Reusable, Descriptor.T == T, Descriptor.Cell == Cell {
     
-    private let resultsController: ResultsController<T>
+    public let resultsController: ResultsController<T>
     private let cellDescriptor: Descriptor
     private weak var tableView: UITableView?
     
