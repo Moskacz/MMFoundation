@@ -13,7 +13,7 @@ open class ResultsController<T>: NSObject {
     open func loadData() throws { fatalError("abstract method")}
     open func object(at indexPath: IndexPath) -> T { fatalError("abstract method") }
     open var sectionsCount: Int { fatalError("abstract method") }
-    open func objects(in section: Int) -> [T]? { fatalError("abstract method")}
+    open func objectsIn(section: Int) -> [T]? { fatalError("abstract method")}
 }
 
 public protocol ResultsControllerDelegate: class {

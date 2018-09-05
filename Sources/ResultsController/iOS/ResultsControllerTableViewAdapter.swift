@@ -34,7 +34,7 @@ open class ResultsControllerTableViewAdapter<T, Cell: UITableViewCell, Descripto
     }
     
     public final func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return resultsController.objects(in: section)?.count ?? 0
+        return resultsController.objectsIn(section: section)?.count ?? 0
     }
     
     public final func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {

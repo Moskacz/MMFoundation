@@ -27,7 +27,7 @@ open class CoreDataResultsController<T: NSManagedObject>: ResultsController<T>, 
         return frc.object(at: indexPath)
     }
     
-    open override func objects(in section: Int) -> [T]? {
+    open override func objectsIn(section: Int) -> [T]? {
         return frc.sections?[section].objects as? [T]
     }
     
