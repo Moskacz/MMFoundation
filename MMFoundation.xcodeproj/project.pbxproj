@@ -12,6 +12,8 @@
 		35D4381F20FE7B6D000E0A46 /* UITableView+Reusable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35D4381E20FE7B6D000E0A46 /* UITableView+Reusable.swift */; };
 		35D4382520FE82B0000E0A46 /* CellDescriptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35D4382420FE82B0000E0A46 /* CellDescriptor.swift */; };
 		35D4382620FE82B0000E0A46 /* CellDescriptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35D4382420FE82B0000E0A46 /* CellDescriptor.swift */; };
+		35F2729F214E95F7002264B4 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35F2729E214E95F7002264B4 /* Result.swift */; };
+		35F272A0214E95F7002264B4 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35F2729E214E95F7002264B4 /* Result.swift */; };
 		35F311A020F9337D0062AD82 /* MMFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35F3119720F9337D0062AD82 /* MMFoundation.framework */; };
 		35F311BC20F933A90062AD82 /* MMFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35F311B320F933A90062AD82 /* MMFoundation.framework */; };
 		35F311D020F938B90062AD82 /* MMFoundation.h in Headers */ = {isa = PBXBuildFile; fileRef = 35F311CF20F938B90062AD82 /* MMFoundation.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -82,6 +84,7 @@
 		35D4381B20FE7B4B000E0A46 /* Reusable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reusable.swift; sourceTree = "<group>"; };
 		35D4381E20FE7B6D000E0A46 /* UITableView+Reusable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView+Reusable.swift"; sourceTree = "<group>"; };
 		35D4382420FE82B0000E0A46 /* CellDescriptor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellDescriptor.swift; sourceTree = "<group>"; };
+		35F2729E214E95F7002264B4 /* Result.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
 		35F3119720F9337D0062AD82 /* MMFoundation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MMFoundation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		35F3119A20F9337D0062AD82 /* Info-iOS.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Info-iOS.plist"; sourceTree = "<group>"; };
 		35F3119F20F9337D0062AD82 /* MMFoundation-iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MMFoundation-iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -183,9 +186,18 @@
 			path = Reusable;
 			sourceTree = "<group>";
 		};
+		35F2729D214E95E9002264B4 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				35F2729E214E95F7002264B4 /* Result.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
 		35F311CA20F9366A0062AD82 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				35F2729D214E95E9002264B4 /* Utils */,
 				35F311EE20F942C30062AD82 /* Typealiases */,
 				359D332120F67C8600981FA3 /* ResultsController */,
 				35F311E020F93BBC0062AD82 /* UI */,
@@ -453,6 +465,7 @@
 				35F311D820F93AB00062AD82 /* KeyboardAppearObserver.swift in Sources */,
 				35D4381F20FE7B6D000E0A46 /* UITableView+Reusable.swift in Sources */,
 				35F311E720F93CF00062AD82 /* GradientButton.swift in Sources */,
+				35F2729F214E95F7002264B4 /* Result.swift in Sources */,
 				35F311D320F93A860062AD82 /* ResultsController.swift in Sources */,
 				35F311F020F942D50062AD82 /* Image.swift in Sources */,
 				35F311DE20F93B4F0062AD82 /* CAGradienLayer+Extension.swift in Sources */,
@@ -490,6 +503,7 @@
 				35F311F420F942DC0062AD82 /* Color.swift in Sources */,
 				35F311F620F943200062AD82 /* CAGradienLayer+Extension.swift in Sources */,
 				35D4382620FE82B0000E0A46 /* CellDescriptor.swift in Sources */,
+				35F272A0214E95F7002264B4 /* Result.swift in Sources */,
 				35F311D520F93A8A0062AD82 /* CoreDataResultsController.swift in Sources */,
 				35F311F920F943370062AD82 /* SegmentedControl.swift in Sources */,
 				35F311F520F943110062AD82 /* GradientRepresenting.swift in Sources */,
