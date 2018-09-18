@@ -33,7 +33,7 @@ public class ResultsControllerFake<T>: ResultsController<T> {
     }
     
     public override func object(at indexPath: IndexPath) -> T {
-        return sections[indexPath.row][indexPath.section]
+        return sections[indexPath.item][indexPath.section]
     }
     
 }
