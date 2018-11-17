@@ -401,6 +401,7 @@
 				TargetAttributes = {
 					35F3119620F9337D0062AD82 = {
 						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 1010;
 						ProvisioningStyle = Automatic;
 					};
 					35F3119E20F9337D0062AD82 = {
@@ -688,7 +689,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = michal.moskala.MMFoundation;
 				PRODUCT_NAME = "$(PROJECT_NAME)";
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -711,7 +712,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = michal.moskala.MMFoundation;
 				PRODUCT_NAME = "$(PROJECT_NAME)";
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
