@@ -23,7 +23,7 @@ extension Image {
         guard let data = tiffRepresentation else { return nil }
         return NSBitmapImageRep(data: data)?.representation(using: .png, properties: [:])
         #elseif os(iOS)
-        return UIImagePNGRepresentation(self)
+        return pngData()
         #endif
     }
 }

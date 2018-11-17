@@ -28,20 +28,20 @@ public class KeyboardAppearObserver {
     }
     
     private func setupNotificationObservers() {
-        notificationCenter.addObserver(forName: Notification.Name.UIKeyboardWillShow,
+        notificationCenter.addObserver(forName: UIResponder.keyboardWillShowNotification,
                                        object: nil,
                                        queue: OperationQueue.main) { [weak self] notification in
             guard let height = self?.keyboardHeight(fromNotification: notification) else { return }
             self?.keyboardWillAppearCallback(height)
         }
         
-        notificationCenter.addObserver(forName: Notification.Name.UIKeyboardWillHide,
+        notificationCenter.addObserver(forName: UIResponder.keyboardWillHideNotification,
                                        object: nil,
                                        queue: OperationQueue.main) { [weak self] _ in
             self?.keyboardWillHideCallback()
         }
         
-        notificationCenter.addObserver(forName: Notification.Name.UIKeyboardWillChangeFrame,
+        notificationCenter.addObserver(forName: UIResponder.keyboardWillChangeFrameNotification,
                                        object: nil,
                                        queue: OperationQueue.main) { [weak self] notification in
             guard let height = self?.keyboardHeight(fromNotification: notification) else { return }
@@ -50,7 +50,7 @@ public class KeyboardAppearObserver {
     }
     
     private func keyboardHeight(fromNotification note: Notification) -> CGFloat? {
-        guard let keyboardSize = note.userInfo?[UIKeyboardFrameEndUserInfoKey] as? NSValue else { return nil }
+        guard let keyboardSize = note.userInfo?[UIResponder.keyboardFrameEndUserInfoKey] as? NSValue else { return nil }
         return keyboardSize.cgRectValue.height
     }
     
