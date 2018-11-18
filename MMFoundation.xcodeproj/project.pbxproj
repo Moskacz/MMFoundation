@@ -12,7 +12,6 @@
 		35224EF721517F9F00C2C813 /* ResultsControllerFake.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35224EF521517F9F00C2C813 /* ResultsControllerFake.swift */; };
 		354820AE21A1DD6E007C932B /* ListAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 354820AD21A1DD6E007C932B /* ListAdapter.swift */; };
 		354820AF21A1DD6E007C932B /* ListAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 354820AD21A1DD6E007C932B /* ListAdapter.swift */; };
-		35D4381820FE7986000E0A46 /* ResultsControllerTableViewAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35D4381720FE7986000E0A46 /* ResultsControllerTableViewAdapter.swift */; };
 		35D4381C20FE7B4B000E0A46 /* Reusable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35D4381B20FE7B4B000E0A46 /* Reusable.swift */; };
 		35D4381F20FE7B6D000E0A46 /* UITableView+Reusable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35D4381E20FE7B6D000E0A46 /* UITableView+Reusable.swift */; };
 		35D4382520FE82B0000E0A46 /* CellDescriptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35D4382420FE82B0000E0A46 /* CellDescriptor.swift */; };
@@ -88,7 +87,6 @@
 		359D332620F67EFB00981FA3 /* CoreDataResultsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataResultsController.swift; sourceTree = "<group>"; };
 		359D332820F686E600981FA3 /* UITableView+ResultsControllerDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView+ResultsControllerDelegate.swift"; sourceTree = "<group>"; };
 		359F703F20A8A3C800C9A694 /* GradientLayerBasing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientLayerBasing.swift; sourceTree = "<group>"; };
-		35D4381720FE7986000E0A46 /* ResultsControllerTableViewAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsControllerTableViewAdapter.swift; sourceTree = "<group>"; };
 		35D4381B20FE7B4B000E0A46 /* Reusable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reusable.swift; sourceTree = "<group>"; };
 		35D4381E20FE7B6D000E0A46 /* UITableView+Reusable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView+Reusable.swift"; sourceTree = "<group>"; };
 		35D4382420FE82B0000E0A46 /* CellDescriptor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellDescriptor.swift; sourceTree = "<group>"; };
@@ -269,7 +267,6 @@
 			isa = PBXGroup;
 			children = (
 				359D332820F686E600981FA3 /* UITableView+ResultsControllerDelegate.swift */,
-				35D4381720FE7986000E0A46 /* ResultsControllerTableViewAdapter.swift */,
 				35224EE92150323100C2C813 /* UICollectionView+ResultsControllerDelegate.swift */,
 			);
 			path = iOS;
@@ -506,7 +503,6 @@
 				35F311DD20F93AE20062AD82 /* CGPoint+Extension.swift in Sources */,
 				35D4381C20FE7B4B000E0A46 /* Reusable.swift in Sources */,
 				35F311DA20F93ACE0062AD82 /* UIView+Extension.swift in Sources */,
-				35D4381820FE7986000E0A46 /* ResultsControllerTableViewAdapter.swift in Sources */,
 				35D4382520FE82B0000E0A46 /* CellDescriptor.swift in Sources */,
 				35F311D420F93A890062AD82 /* CoreDataResultsController.swift in Sources */,
 				35F311F820F943370062AD82 /* SegmentedControl.swift in Sources */,
