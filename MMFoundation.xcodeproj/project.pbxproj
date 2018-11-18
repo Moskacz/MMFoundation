@@ -10,6 +10,8 @@
 		35224EEA2150323100C2C813 /* UICollectionView+ResultsControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35224EE92150323100C2C813 /* UICollectionView+ResultsControllerDelegate.swift */; };
 		35224EF621517F9F00C2C813 /* ResultsControllerFake.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35224EF521517F9F00C2C813 /* ResultsControllerFake.swift */; };
 		35224EF721517F9F00C2C813 /* ResultsControllerFake.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35224EF521517F9F00C2C813 /* ResultsControllerFake.swift */; };
+		354820AE21A1DD6E007C932B /* ListAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 354820AD21A1DD6E007C932B /* ListAdapter.swift */; };
+		354820AF21A1DD6E007C932B /* ListAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 354820AD21A1DD6E007C932B /* ListAdapter.swift */; };
 		35D4381820FE7986000E0A46 /* ResultsControllerTableViewAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35D4381720FE7986000E0A46 /* ResultsControllerTableViewAdapter.swift */; };
 		35D4381C20FE7B4B000E0A46 /* Reusable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35D4381B20FE7B4B000E0A46 /* Reusable.swift */; };
 		35D4381F20FE7B6D000E0A46 /* UITableView+Reusable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35D4381E20FE7B6D000E0A46 /* UITableView+Reusable.swift */; };
@@ -75,6 +77,7 @@
 		35224EF521517F9F00C2C813 /* ResultsControllerFake.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsControllerFake.swift; sourceTree = "<group>"; };
 		352708F7206971D9004DAF8D /* CAGradienLayer+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CAGradienLayer+Extension.swift"; sourceTree = "<group>"; };
 		352D29A4206AD56900B91E07 /* GradientsTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientsTest.swift; sourceTree = "<group>"; };
+		354820AD21A1DD6E007C932B /* ListAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListAdapter.swift; sourceTree = "<group>"; };
 		35757CA81FD5DBD50022C2FB /* KeyboardAppearObserver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardAppearObserver.swift; sourceTree = "<group>"; };
 		35757CAA1FD5E02F0022C2FB /* KeyboardAppearObserverTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardAppearObserverTests.swift; sourceTree = "<group>"; };
 		3587F47720A8C2D50072AF49 /* UIViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewTests.swift; sourceTree = "<group>"; };
@@ -149,6 +152,14 @@
 			path = Fakes;
 			sourceTree = "<group>";
 		};
+		354820AC21A1DD5D007C932B /* List */ = {
+			isa = PBXGroup;
+			children = (
+				354820AD21A1DD6E007C932B /* ListAdapter.swift */,
+			);
+			path = List;
+			sourceTree = "<group>";
+		};
 		35757C841FD5DB2A0022C2FB = {
 			isa = PBXGroup;
 			children = (
@@ -210,6 +221,7 @@
 		35F311CA20F9366A0062AD82 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				354820AC21A1DD5D007C932B /* List */,
 				35224EF421517F8700C2C813 /* Fakes */,
 				35F2729D214E95E9002264B4 /* Utils */,
 				35F311EE20F942C30062AD82 /* Typealiases */,
@@ -482,6 +494,7 @@
 				35F311E620F93CEE0062AD82 /* GradientView.swift in Sources */,
 				35F311D820F93AB00062AD82 /* KeyboardAppearObserver.swift in Sources */,
 				35224EF621517F9F00C2C813 /* ResultsControllerFake.swift in Sources */,
+				354820AE21A1DD6E007C932B /* ListAdapter.swift in Sources */,
 				35D4381F20FE7B6D000E0A46 /* UITableView+Reusable.swift in Sources */,
 				35F311E720F93CF00062AD82 /* GradientButton.swift in Sources */,
 				35F2729F214E95F7002264B4 /* Result.swift in Sources */,
@@ -521,6 +534,7 @@
 				35F311DC20F93AE20062AD82 /* CGPoint+Extension.swift in Sources */,
 				35F311F420F942DC0062AD82 /* Color.swift in Sources */,
 				35F311F620F943200062AD82 /* CAGradienLayer+Extension.swift in Sources */,
+				354820AF21A1DD6E007C932B /* ListAdapter.swift in Sources */,
 				35224EF721517F9F00C2C813 /* ResultsControllerFake.swift in Sources */,
 				35D4382620FE82B0000E0A46 /* CellDescriptor.swift in Sources */,
 				35F272A0214E95F7002264B4 /* Result.swift in Sources */,
