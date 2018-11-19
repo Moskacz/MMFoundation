@@ -10,6 +10,7 @@ import Foundation
 
 open class ListAdapter<Item> {
     public init() {}
+    open weak var delegate: ResultsControllerDelegate? 
     open var numberOfSections: Int { fatalError() }
     open func numberOfRows(in section: Int) -> Int { fatalError() }
     open func item(at indexPath: IndexPath) -> Item { fatalError() }
