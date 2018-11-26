@@ -31,9 +31,9 @@ public class ResultsControllerFake<T>: ResultsController<T> {
     public override func objectsIn(section: Int) -> [T]? {
         return sections[section]
     }
-    
+
     public override func object(at indexPath: IndexPath) -> T {
-        return sections[indexPath.item][indexPath.section]
+        return sections[indexPath.section][indexPath.item]
     }
     
 }
