@@ -12,6 +12,8 @@
 		35224EF721517F9F00C2C813 /* ResultsControllerFake.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35224EF521517F9F00C2C813 /* ResultsControllerFake.swift */; };
 		354820AE21A1DD6E007C932B /* ListAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 354820AD21A1DD6E007C932B /* ListAdapter.swift */; };
 		354820AF21A1DD6E007C932B /* ListAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 354820AD21A1DD6E007C932B /* ListAdapter.swift */; };
+		3595742221C5633900C3DD2B /* ObjectAssociation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3595742121C5633900C3DD2B /* ObjectAssociation.swift */; };
+		3595742321C5633900C3DD2B /* ObjectAssociation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3595742121C5633900C3DD2B /* ObjectAssociation.swift */; };
 		35D4381C20FE7B4B000E0A46 /* Reusable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35D4381B20FE7B4B000E0A46 /* Reusable.swift */; };
 		35D4381F20FE7B6D000E0A46 /* UITableView+Reusable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35D4381E20FE7B6D000E0A46 /* UITableView+Reusable.swift */; };
 		35D4382520FE82B0000E0A46 /* CellDescriptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35D4382420FE82B0000E0A46 /* CellDescriptor.swift */; };
@@ -83,6 +85,7 @@
 		35940B442066966700BB7753 /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
 		35940B46206696BF00BB7753 /* GradientRepresenting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientRepresenting.swift; sourceTree = "<group>"; };
 		35940B4920669D2E00BB7753 /* CGPoint+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CGPoint+Extension.swift"; sourceTree = "<group>"; };
+		3595742121C5633900C3DD2B /* ObjectAssociation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjectAssociation.swift; sourceTree = "<group>"; };
 		359D332220F67CA200981FA3 /* ResultsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsController.swift; sourceTree = "<group>"; };
 		359D332620F67EFB00981FA3 /* CoreDataResultsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataResultsController.swift; sourceTree = "<group>"; };
 		359D332820F686E600981FA3 /* UITableView+ResultsControllerDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView+ResultsControllerDelegate.swift"; sourceTree = "<group>"; };
@@ -212,6 +215,7 @@
 			isa = PBXGroup;
 			children = (
 				35F2729E214E95F7002264B4 /* Result.swift */,
+				3595742121C5633900C3DD2B /* ObjectAssociation.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -492,6 +496,7 @@
 				35F311D820F93AB00062AD82 /* KeyboardAppearObserver.swift in Sources */,
 				35224EF621517F9F00C2C813 /* ResultsControllerFake.swift in Sources */,
 				354820AE21A1DD6E007C932B /* ListAdapter.swift in Sources */,
+				3595742221C5633900C3DD2B /* ObjectAssociation.swift in Sources */,
 				35D4381F20FE7B6D000E0A46 /* UITableView+Reusable.swift in Sources */,
 				35F311E720F93CF00062AD82 /* GradientButton.swift in Sources */,
 				35F2729F214E95F7002264B4 /* Result.swift in Sources */,
@@ -536,6 +541,7 @@
 				35F272A0214E95F7002264B4 /* Result.swift in Sources */,
 				35F311D520F93A8A0062AD82 /* CoreDataResultsController.swift in Sources */,
 				35F311F920F943370062AD82 /* SegmentedControl.swift in Sources */,
+				3595742321C5633900C3DD2B /* ObjectAssociation.swift in Sources */,
 				35F311F520F943110062AD82 /* GradientRepresenting.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
