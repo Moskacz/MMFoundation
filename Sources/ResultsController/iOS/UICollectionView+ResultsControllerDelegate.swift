@@ -11,16 +11,30 @@ import UIKit
 
 extension UICollectionView: ResultsControllerDelegate {
     
+    private static var changes = ObjectAssociation<NSMutableArray>()
+    
     public func resultsControllerWillChangeContent() {
-        // no op
+        layoutIfNeeded()
     }
     
     public func resultsControllerDidChangeContent() {
-        reloadData()
+        guard let untypedChanges = UICollectionView.changes[self] else { return }
+        let changes = untypedChanges as! [ResultChangeType]
+        changes.forEach {
+            switch $0 {
+            case .deleteRow(let path): deleteItems(at: [path])
+            case .insertRow(let path): insertItems(at: [path])
+            case .updateRow(let path): reloadItems(at: [path])
+            case .moveRow(let from, let to): moveItem(at: from, to: to)
+            case .insertSection(let index): insertSections(IndexSet(integer: index))
+            case .deleteSection(let index): deleteSections(IndexSet(integer: index))
+            }
+        }
     }
     
     public func resultsControllerDid(change: ResultChangeType) {
-        // no op
+        let changes = UICollectionView.changes[self] ?? NSMutableArray()
+        changes.add(change)
+        UICollectionView.changes[self] = changes
     }
-    
 }
